@@ -160,6 +160,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 -   adding the bootstrap link caused the border image to disable. - fixed?????
+- adding event listener to map caused map to disappear 
+![Image](../Tribe/assets/images/bug-screenshots/broken-map.png)
+
 
 ## Deployment
 
