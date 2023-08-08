@@ -6,7 +6,7 @@ body, html {
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-image.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-image.webp");
   height: 50%;
   background-position: center;
   background-repeat: repeat-x;
@@ -82,7 +82,7 @@ a {
 
 .flex-container > div {
   border: 10px solid transparent;
-  border-image: url(../assets/images/african-print.png) 30 round;
+  border-image: url(../assets/images/african-print.webp) 30 round;
   width: 300px;
   margin: 30px;
   text-align: center;  
