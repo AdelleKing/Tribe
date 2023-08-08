@@ -73,7 +73,11 @@ a {
   font-size: 20px;
   }
 
-  #map { height: 180px; }
+#map { 
+  height: 300px; 
+  margin:30px;
+
+}
 
 .flex-container {
   display: flex;
