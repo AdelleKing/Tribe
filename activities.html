@@ -25,8 +25,7 @@
   <div class="hero-text">
   	  	    <h1>Tribe</h1>
     <p>Find Your People</p>
-    <button><a href="sign-in.html">Sign Up</a></button>
-  </div>
+    </div>
 </div>
 <!-- code for info text -->
 <div class="site-info"> Activities </div>
@@ -265,9 +264,16 @@
   <label for="activityTIme">Activity time:</label>
   <input type="time" id="activityTime" name="activityTime" value="10am" required><br>
   <label for="activityLocation">Activity location:</label><br>
-  <input type="text" id="activityLocation" name="activityLocation" value="Maidstone" required><br>
+  <input type="text" id="activityLocation" name="activityLocation" value="Maidstone" required><br><br>
+  <label for="myfile">Upload a picture for your activity</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
   <label for="activityDetails">Activity details:</label><br>
   <textarea id='activityDetails' cols='50' rows='10' name='activityDetails' placeholder='Add further details of the activity' required></textarea><br><br>
+  <label for="t&cs">Have you read the <a href>Terms and Conditions</a></label><br>
+  <input type="radio" id="yes" name="agree" value="yes" required>
+  <label for="yes">Yes</label><br>
+  <input type="radio" id="no" name="disagree" value="no">
+  <label for="no">No</label><br>
   <input class="formSubmit" type="submit" value="Submit">
 </form>
 </div>
