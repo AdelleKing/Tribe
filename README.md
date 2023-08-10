@@ -159,9 +159,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   adding the bootstrap link caused the border image to disable. - fixed?????
+-   adding the bootstrap link caused the border image to disable. - removed bootstrap link and used CSS to obtain result.
 - adding event listener to map caused map to disappear 
-![Image](../Tribe/assets/images/bug-screenshots/broken-map.png)
+![Image](../Tribe/assets/images/bug-screenshots/broken-map.png) - bug fixed by editing code
+
+
+### Further developments
+Should I have had further time and resource the following would have been included within the website:
+- A sign up page, which woul dhave lead to a user profile area, the ability to see previously attended activities, a chat function with other memembers and the ability to add a personalised profile picture.
+- where the 'add an activity' form is, this would allow the uploading of 
 
 
 ## Deployment
@@ -217,6 +223,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+
+- To make the map interactive I used this you tube video [Add dynamic map to your website] (https://youtu.be/iNdUiMBlxIM)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 

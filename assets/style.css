@@ -64,6 +64,8 @@ a {
   color: white;
 }
 
+/*first section of text*/
+
 .site-info{
   background-color: rgba(153, 30, 2, 1);
   color: #fafafa;
@@ -71,7 +73,34 @@ a {
   text-align: center;
   line-height: 75px;
   font-size: 20px;
+}
+
+/*August features*/
+.augustHighlights{
+  margin: 0 0 0 500px;
+  color: rgba(153, 30, 2, 1) ;
+}  
+
+
+  /*index page featured activities */
+
+.featuredContainerOuter{
+  display: flex;
+  flex-direction: row;
+}
+
+  .featuredContainer{
+    border: 10px solid transparent;
+  border-image: url(../assets/images/african-print.webp) 30 round;
+  width: 300px;
+  height: 350px;
+  margin: 20px;
+  text-align: center;  
+  font-size: 20px;  
+  padding: 15px;
   }
+
+/*activities and map positioning */
 
 .containerMap {
   display: flex;
@@ -84,6 +113,7 @@ a {
 
 }
 
+/*activities page containers */
 .outerContainer{
 display: flex;
 flex-direction: column;
@@ -149,29 +179,75 @@ flex-direction: row;
   text-align: left;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-  background-color: #eee;
-  color: #444;
+
+/*find out more button*/
+.findOutMore{
+  font-size: 12px;
+  margin: 0 0 0 100px;
+  width: 100px;
+  color: rgba(153, 30, 2, 1);
+  transition: width 2s height 2s;
   cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
 }
 
-.active, .accordion:hover {
-  background-color: #ccc; 
+.findOutMore:hover {
+  width: 150px;
+  font-size: 20px;
 }
 
-.panel {
-  padding: 0 18px;
-  display: none;
-  background-color: white;
-  overflow: hidden;
+/*form on activities page*/
+
+.form {
+  margin: 20px 300px;
+  background-color: rgba(153, 30, 2, 1);  
+}
+
+.formHeader {
+  margin: 50px 0 0 300px;
+}
+
+
+/*form on sign-up page*/
+
+.innerForm {
+  padding: 0 0 0 350px;
+  color: #F1F2F4;
+  align-items: center;
+}
+
+input, textarea {
+  background-color: #F8EBEB;
+}
+
+.form1 {
+  margin: 30px;  
+  background-color: rgba(153, 30, 2, 1);
+
+}
+
+.formHeader1 {
+  margin: 50px 0 0 300px;
+}
+
+.formContents {
+  margin: 0 0 0 120px;
+  color: #F1F2F4;
+}
+
+.formSubmit {
+  font-size: 20px;
+  margin: 0 0 0 150px;
+  width: 150px;
+  color: rgba(153, 30, 2, 1);
+  transition: width 2s height 2s;
+  cursor: pointer;
+}
+
+.formSubmit:hover {
+  width: 200px;
+  font-size: 20px;
+}
+
 }
 
 
