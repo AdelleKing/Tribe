@@ -100,18 +100,6 @@ a {
   padding: 15px;
   }
 
-/*activities and map positioning */
-
-.containerMap {
-  display: flex;
-  flex-direction: row;
-}
-
-#map { 
-  height: 300px; 
-  margin:30px;
-
-}
 
 /*activities page containers */
 .outerContainer{
