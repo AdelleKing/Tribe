@@ -167,8 +167,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further developments
 Should I have had further time and resource the following would have been included within the website:
 - A sign up page, which woul dhave lead to a user profile area, the ability to see previously attended activities, a chat function with other memembers and the ability to add a personalised profile picture.
-- where the 'add an activity' form is, this would allow the uploading of 
-
+- The ability to search for activities based on various criteria e.g. date, location, activity type. 
 
 ## Deployment
 

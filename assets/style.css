@@ -256,16 +256,44 @@ input, textarea {
 }
 
 .box1{
-  background-color: blue;
-  height: 10px;
-  width: 10px;
+  background-color: #F1F2F4;
+  height: 400px;
+  width: 600px;
+  float: right;
+  margin: 30px;
+  text-align: center;
+}
+
+.aboutpageH2 {
+  color: rgba(153, 30, 2, 1) ;
 }
 
 .box2{
-  background-color: green;
-  height: 10px;
-  width: 10px;
+  height: 400px;
+  width: 300px;
+  float: left;
+  margin: 30px 100px;
+
 }
 
+.img1 {
+  border-radius: 40%;
+  float: right;  
+}
 
+.insidebox1 {
+float: left;
+background-color: orange;
+z-index: 1;
+display: inline-flex;
+flex-direction: column;
+}
+
+.insidebox2 {
+float: right;
+background-color: darkred;
+z-index: 1;
+display: inline-flex;
+flex-direction: column;
+}
 
