@@ -199,6 +199,20 @@ p {
   font-size: 20px;
 }
 
+/** flex box for forms **/
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 /*form on activities page*/
 
 .form {
@@ -251,6 +265,11 @@ input, textarea {
   width: 200px;
   font-size: 20px;
 }
+
+.formLink{
+   color: black;
+}
+
 
 /*about page*/
 
