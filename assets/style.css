@@ -5,6 +5,9 @@ body, html {
   background-color: #F1F2F4;
 }
 
+
+/*** index page **/ 
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-image.webp");
   height: 50%;
@@ -14,7 +17,7 @@ body, html {
   position: relative;
 }
 
-/*nav bar */
+/****  nav bar ****/
 ul {
   list-style-type: none;
   margin: 0;
@@ -75,8 +78,8 @@ a {
   font-size: 20px;
 }
 
-/*August features*/
-.augustHighlights{
+/*headings on index and activities page*/
+.pageHeading{
   margin: 0 0 0 500px;
   color: rgba(153, 30, 2, 1) ;
 }  
@@ -110,6 +113,10 @@ flex-direction: column;
 .container1 {
 display: flex;
 flex-direction: row;
+}
+
+p {
+  line-height: 40px;
 }
 
 
@@ -165,6 +172,15 @@ flex-direction: row;
 
 .table-data {
   text-align: left;
+}
+
+.table-data2 {
+  font-size: 15px;
+}
+
+.eventText {
+  font-size: 15px;
+  line-height: 20px;
 }
 
 
