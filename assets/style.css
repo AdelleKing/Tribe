@@ -203,29 +203,26 @@ p {
 
 .row {
   display: flex;
-  flex-direction: row;
-  margin: 30px;
-}
+  flex-direction: row; 
+  margin: 0;
+  padding: 0;
+  }
 
 .col {
-  display: flex;
-  flex-direction: column;
-  
+  margin: 0;
+  padding: 0;
 }
 
 /*form on activities page*/
 
 .form {
-  margin: 20px 300px;
   background-color: rgba(153, 30, 2, 1);  
 }
 
 .formHeader {
-  margin: 50px 0 0 300px;
+  margin: 50px 0 0 110px;
 }
 
-
-/*form on sign-up page*/
 
 .innerForm {
   padding: 0 0 0 350px;
@@ -247,8 +244,15 @@ input, textarea {
   margin: 50px 0 0 300px;
 }
 
+h4{
+  color: black;
+}
+
+.email {
+  width: 900px;
+}
 .formContents {
-  margin: 0 0 0 120px;
+  margin: 30px 20px 30px 100px;
   color: #F1F2F4;
 }
 

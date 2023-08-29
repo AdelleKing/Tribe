@@ -246,11 +246,12 @@
 
 
 <!-- form for submitting activity request-->
-<h2 class="formHeader">Have an activity you want others to join? Submit it here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
+
 
 <div class="row">
 	<div class="col">
 <div class="form">
+	<h2 class="formHeader">Have an activity you want others to join?<br> Submit it here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
 	 <form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
    <label for="name">Your name:</label> <br>
   <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>  
@@ -272,22 +273,34 @@
 </div>
 	<div class="col">
 <div class="form">
+	<h2 class="formHeader">RSVP to your next event<br> here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
 	 <form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
    <label for="name">Your name:</label> <br>
-  <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>  
-  <label for="activityName">Activity title:</label><br>
-  <input type="text" id="activityName" name="activityName" placeholder="Beach Trip" required><br>
-  <label for="activityDate">Activity date:</label><br>
-  <input type="date" id="activityDate" name="activityDate" placeholder="23rd Aug 2023" required>
-  <label for="activityTIme">Activity time:</label>
-  <input type="time" id="activityTime" name="activityTime" placeholder="10am" required><br>
-  <label for="activityLocation">Activity location:</label><br>
-  <input type="text" id="activityLocation" name="activityLocation" placeholder="Maidstone" required><br><br>
-  <label for="myfile">Upload a picture for your activity</label>
-  <input type="file" id="myfile" name="myfile"><br><br>
-  <label for="activityDetails">Activity details:</label><br>
-  <textarea id='activityDetails' cols='50' rows='10' name='activityDetails' placeholder='Add further details of the activity' required></textarea><br><br>
+  <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email">
+  <h4>Which event are you attending?</h4>
+  <input type="checkbox" id="park" name="event_name" value="park">
+  <label for="park">Park Meet-up</label>
+  <input type="checkbox" id="coffee" name="event_name" value="coffee">
+  <label for="coffee">Coffee Meet-up</label>
+  <input type="checkbox" id="dinner" name="event_name" value="dinner">
+  <label for="dinner">Dinner and Cocktails Meet-up</label> <br>
+  <input type="checkbox" id="adults" name="event_name" value="adults">
+  <label for="adults">Adults-only Meet-up</label>
+  <input type="checkbox" id="beach" name="event_name" value="beach">
+  <label for="beach">Beach Meet-up</label>
+  <input type="checkbox" id="comedy" name="event_name" value="comedy">
+  <label for="comedy">Comedy Meet-up</label>
+  <h4> Do you have any special requirements the host should be made aware of?</h4>
+  <input type="radio" id="yes" name="requirements" value="yes">
+  <label for="yes">Yes</label>
+  <input type="radio" id="no" name="requirements" value="yes" required>
+  <label for="no">No</label><br><br>
+  <label for="activityDetails"></label>
+  <textarea id='activityDetails' cols='50' rows='10' name='activityDetails' placeholder="If yes, please provide further details:"></textarea><br><br>
   <input class="formSubmit" type="submit" value="Submit">
+
 </form>
 </div>
 </div>
