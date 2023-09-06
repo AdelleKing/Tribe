@@ -100,7 +100,7 @@ a {
   border-image: url(../assets/images/african-print.webp) 30 round;
   width: 300px;
   height: 350px;
-  margin: 30px;
+  margin: 50px;
   text-align: center;  
   font-size: 20px;  
   padding: 15px;
@@ -108,14 +108,14 @@ a {
 
 
 /*activities page containers */
-.outerContainer{
-display: flex;
-flex-direction: column;
-}
 
-.container1 {
-display: flex;
-flex-direction: row;
+
+.flex-container1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 60px;
+  padding: 0;
 }
 
 p {
@@ -204,16 +204,10 @@ p {
 
 /** flex box for forms **/
 
-.row {
+.flex-container2{
   display: flex;
-  flex-direction: row; 
-  margin: 0;
-  padding: 0;
-  }
-
-.col {
-  margin: 0;
-  padding: 0;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /*form on activities page*/
@@ -325,8 +319,15 @@ display: inline-flex;
 flex-direction: column;
 }
 
-/* Smartphones ----------- */
-@media screen and (max-width: 425px) {
-    
+/* Smartphones ----------- 
+@media screen and (min-width: 320px) {
+.pageHeading {
+  margin: 0 100px 0 200px;
 }
+
+.images {
+  width:230px;
+  height:300px;
+}
+}*/
 

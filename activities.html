@@ -33,11 +33,11 @@
 		<h2>Find your next meet-up! </h2>
 	</div>
 
-<!--container for activities row 1-->
-<div class="outerContainer">
-<div class="container1">
+<!--container for activities-->
+
 <!--first card -->
-<div class="flip-card" id="apart1">
+<div class="flex-container1">
+<div class="flip-card">
   <div class="flip-card-inner">
   	<div class="flip-card-front">
   		<img src="../Tribe/assets/images/park.webp" alt="park" style="width:290px;height:300px;">
@@ -70,7 +70,7 @@
   </div>
 </div> 
 <!---second card-->
-<div class="flip-card" id="apart2">
+<div class="flip-card">
   <div class="flip-card-inner">
   	<div class="flip-card-front">
   		<img src="../Tribe/assets/images/coffee.webp" alt="coffee cup" style="width:290px;height:300px;">
@@ -102,7 +102,8 @@
     </div>
   </div>
 </div> 
-<div class="flip-card" id="apart5">
+<!---third card-->
+<div class="flip-card">
   <div class="flip-card-inner">
   	<div class="flip-card-front">
   		<img src="../Tribe/assets/images/dinner.webp" alt="dinner" style="width:290px;height:300px;">
@@ -134,14 +135,9 @@
 	    </div>
   </div>
 </div>
-</div>
 
-<!--container for activities row 2-->
-<!--third card-->
-
-<div class="container1">
-<!--first card -->
-<div class="flip-card" id="apart1">
+<!--fourth card -->
+<div class="flip-card">
   <div class="flip-card-inner">
   	<div class="flip-card-front">
   		<img src="../Tribe/assets/images/adults.webp" alt="adults" style="width:290px;height:300px;">
@@ -173,11 +169,11 @@
     </div>
   </div>
 </div> 
-<!---second card-->
-<div class="flip-card" id="apart2">
+<!---fifth card-->
+<div class="flip-card">
   <div class="flip-card-inner">
   	<div class="flip-card-front">
-  		<img src="../Tribe/assets/images/beach.webp" alt="beach" style="width:290px;height:300px;">
+  		<img class="images" src="../Tribe/assets/images/beach.webp" alt="beach" style="width:290px;height:300px;">
   		<div>
   			<p>Beach Meet-up</p>
   		</div>
@@ -206,7 +202,8 @@
     </div>
   </div>
 </div> 
-<div class="flip-card" id="apart6">
+<!---sixth card-->
+<div class="flip-card">
   <div class="flip-card-inner">
   	<div class="flip-card-front">
   		<img src="../Tribe/assets/images/comedy.webp" alt="Comedian" style="width:290px;height:300px;">
@@ -239,14 +236,12 @@
   </div>
 </div> 
 </div>
-</div>
+
 
 
 <!-- form for submitting activity request-->
 
-
-<div class="row">
-	<div class="col">
+<div class="flex-container2">
 <div class="form">
 	<h2 class="formHeader" id="activity_section">Have an activity you want others to join?<br> Submit it here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
 	 <form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
@@ -267,11 +262,9 @@
   <input class="formSubmit" type="submit" value="Submit">
 </form>
 </div>
-</div>
-	<div class="col">
 <div class="form">
-	<h2 class="formHeader">RSVP to your next event<br> here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
-	 <form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
+		<h2 class="formHeader">RSVP to your next event<br> here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
+	<form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
    <label for="name">Your name:</label> <br>
   <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>
   <label for="email">Enter your email:</label>
@@ -301,7 +294,7 @@
 </form>
 </div>
 </div>
-</div>
+
 
 
 <!--footer-->
