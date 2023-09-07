@@ -292,14 +292,15 @@ h4{
 .activitiesBox{
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  height: 80%;
 }
 
 .box1{
   background-color: #F1F2F4;
-  height: 400px;
-  width: 600px;
+  height: 50% ;
+  width: 100%;
   float: right;
-  margin: 30px;
   text-align: center;
 }
 
@@ -311,13 +312,13 @@ h4{
   height: 400px;
   width: 300px;
   float: left;
-  margin: 30px 100px;
-
 }
 
 .img1 {
   border-radius: 40%;
-  float: right;  
+  justify-content: right;  
+  height: 100%;
+  width: 220%;
 }
 
 .insidebox1 {
