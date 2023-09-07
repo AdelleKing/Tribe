@@ -103,8 +103,7 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 60px;
-  padding: 0;
+  justify-content: center;
 }
 
 p {
