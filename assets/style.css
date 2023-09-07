@@ -55,20 +55,6 @@ a {
   color: white;
 }
 
-/*.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #F1F2F4;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  color: white;
-}*/
 
 /*first section of text*/
 
@@ -125,7 +111,7 @@ p {
 
 /*image gallery on activities page */
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+/* The flip card container - */
 .flip-card {
   background-color: transparent;
   border: 10px solid transparent;
@@ -137,6 +123,11 @@ p {
   font-size: 20px;  
   padding: 15px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.images {
+  width:290px;
+  height:300px;
 }
 
 /* This container is needed to position the front and back side */
@@ -237,8 +228,8 @@ input, textarea {
 
 }
 
-.formHeader1 {
-  margin: 50px 0 0 300px;
+.formHeader {
+  margin: 0;
 }
 
 h4{
@@ -319,15 +310,162 @@ display: inline-flex;
 flex-direction: column;
 }
 
-/* Smartphones ----------- 
-@media screen and (min-width: 320px) {
+
+/*------------------media queries---*/
+/*mobile small 320px*/
+@media all  and (max-width: 319px) {
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-image.webp");
+  height: 100%;
+  width: 315px;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+
+.site-info{
+margin: 0;
+line-height: 40px;
+font-size: 20px;
+}
+
 .pageHeading {
-  margin: 0 100px 0 200px;
+  margin: 0 0 0 25px;
+}
+
+.flex-container1 {
+  margin: 0;
 }
 
 .images {
-  width:230px;
-  height:300px;
+  width:100%;
+  height:250px;
 }
-}*/
+
+h2 {
+  font-size: 20px;
+}
+
+.table-data {
+  text-align: left;
+  font-size: 15px;
+}
+
+
+.formHeader{
+ padding: 5px;
+}
+
+
+.formContents {
+  margin: 0;
+  color: #F1F2F4;
+}
+
+.formSubmit {
+  margin: 0;
+]
+
+}
+
+/* mobile Medium 375px*/
+@media all  and (max-width: 375px) {
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-image.webp");
+  height: 100%;
+  width: 374px;
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: cover;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+
+.site-info{
+margin: 0;
+padding: 0;
+line-height: 40px;
+font-size: 20px;
+}
+
+.pageHeading {
+  margin: 0 0 0 25px;
+}
+
+.flex-container1 {
+  margin: 0;
+}
+
+.images {
+  width:100%;
+  height:250px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.table-data {
+  text-align: left;
+  font-size: 15px;
+}
+
+
+.formHeader{
+ padding: 5px;
+}
+
+
+.formContents {
+  margin: 0;
+  color: #F1F2F4;
+}
+
+.formSubmit {
+  margin: 0;
+]
+
+}
+
+/* mobile large 425px----
+@media screen and (max-width:768px) {
+  
+}
+
+
+/* tablets 768px----
+@media screen and (max-width:768px) {
+  
+}
+
+/* Laptops 1024px----
+@media screen and (max-width:992px) {
+  
+}
+
+/* laptop large 1440px----
+@media screen and (max-width:1200px) {
+  
+}
+*/
 
