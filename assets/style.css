@@ -118,7 +118,7 @@ a {
   }
 
 
-/*activities page containers */
+/*activities page activities containers */
 
 
 .flex-container1{
@@ -188,6 +188,8 @@ p {
   transform: rotateY(180deg);
 }
 
+/* activities information */
+
 .table-data {
   text-align: left;
 }
@@ -222,7 +224,7 @@ p {
 .flex-container2{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+ justify-content: center;
 }
 
 /*form on activities page*/
@@ -232,7 +234,7 @@ p {
 }
 
 .formHeader {
-  margin: 0 110px 0 0;
+  text-align: center;
 }
 
 
