@@ -11,10 +11,10 @@ body, html {
 
 /****  nav bar ***/
 
-header {
-  display: inherit;
-  height: 3%;
+header {  
+  height: 11%;
 }
+
 
 #logo{
     float: left;
