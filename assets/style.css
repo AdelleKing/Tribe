@@ -1,6 +1,7 @@
 body, html {
   height: 100%;
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #F1F2F4;
 }
@@ -8,40 +9,60 @@ body, html {
 
 /*** index page **/ 
 
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero-image.webp");
-  height: 100%;
-  background-position: center;
-  background-repeat: repeat-x;
-  background-size: cover;
-  position: relative;
+/****  nav bar ***/
+
+header {
+  display: inherit;
+  height: 3%;
 }
 
-/****  nav bar ****/
-ul {
-  list-style-type: none;
+#logo{
+    float: left;
+    font-size: 280%;
+}
+
+h2 {
   margin: 0;
   padding: 0;
-  overflow: hidden;
 }
 
-li {
-  float: right;
+#menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
 }
 
-li a {
-  display: block;
-  padding: 8px;
+#logo, #menu {
+ line-height: 75px; 
 }
 
-a:hover {
+#menu li {
+    float: right;
+    margin-right: 30px;
+
+  }
+
+  a:hover {
   color: rgba(9, 2, 0, 1);
 }
 
 a {
   text-decoration: none;
-  color: rgba(153, 30, 2, 1);
+  color: rgba(153, 30, 2, 1);*/
 }
+
+
+
+/* hero image*/
+
+
+.hero-image{
+    height:600px;
+    width: 100%;
+    background: url("../assets/images/hero-image.webp") no-repeat center center;
+
+}
+
 
 /* hero text*/
 
@@ -52,7 +73,7 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: rgba(153, 30, 2, 1);
 }
 
 
