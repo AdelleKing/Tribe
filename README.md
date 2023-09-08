@@ -140,7 +140,7 @@ The header is used throughout the site to hold the navigation bar and the site t
 ## **Footer**
 * The footer holds the contact us form, this is replicated throughout the site.
 
-![Page footer](assets/images/screenshots/footer_screenshot.jpg)
+![Page footer](assets/images/screenshots/footer_screenshot.png)
 
 ## **Future-Enhancements**
 
