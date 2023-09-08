@@ -251,7 +251,23 @@
 <div class="flex-container2">
 <div class="form">
 	<h2 class="formHeader" id="activity_section">Have an activity you want others to join?<br> Submit it here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
-	c
+	<form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
+   <label for="name">Your name:</label> <br>
+  <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>  
+  <label for="activityName">Activity title:</label><br>
+  <input type="text" id="activityName" name="activityName" placeholder="Beach Trip" required><br>
+  <label for="activityDate">Activity date:</label><br>
+  <input type="date" id="activityDate" name="activityDate" placeholder="23rd Aug 2023" required>
+  <label for="activityTIme">Activity time:</label>
+  <input type="time" id="activityTime" name="activityTime" placeholder="10am" required><br>
+  <label for="activityLocation">Activity location:</label><br>
+  <input type="text" id="activityLocation" name="activityLocation" placeholder="Maidstone" required><br><br>
+  <label for="myfile">Upload a picture for your activity</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <label for="activityDetails">Activity details:</label><br>
+  <textarea id='activityDetails' cols='50' rows='10' name='activityDetails' placeholder='Add further details of the activity' required></textarea><br><br>
+  <input class="formSubmit" type="submit" value="Submit">
+</form>
 </div>
 <div class="form">
 		<h2 class="formHeader">RSVP to your next event<br> here <i class="fa-solid fa-arrow-turn-down"></i> </h2>
@@ -308,7 +324,7 @@
 </form>
 </div>
 <div>
-	<img  class="img2" src="assets/images/jpeg-png/group.jpg" alt="Group of women laughing">	
+	<img  class="img2" src="assets/images/jpeg-png/party.jpg" alt="mixed group of people">	
 </div>
 </div>
 </footer>
