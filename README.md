@@ -31,6 +31,7 @@ Welcome to Tribe - the number one destination for the African and Caribbean comm
         * [*Returning Visitor Goals*](#Returning-Visitor-Goals)
         * [*Frequent User Goals*](#Frequent-User-Goals)
         * [*Further Testing*](#Further-Testing)
+1. [**Accessibility**](#Accessibility)
 1. [**Known Bugs**](#Known-Bugs)
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
@@ -228,6 +229,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+
+### Accessibility
+I wanted to ensure the site supported all visitors, I included the following in my code to ensure this:
+
+* All images contained an alt tag
+* All images were converted into WEBP, a reduced file size to support the load time of images 
+* The site is responsive to different screen sizes 
+* I used semantic elements throughout the design
 
 ### ***Known Bugs***
 
