@@ -41,8 +41,27 @@
   </div>
 </div>
 
-<footer>
-	<div class="site-info"> <i class="fa-regular fa-copyright"></i> Adelle King</div>
+<footer>  
+  <div class="footerContainer">
+  <div class="footer-info">  
+  <form class="footerFormContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
+  <h3> Contact us</h3>
+   <label for="name">Your name:</label> <br>
+  <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>  
+  <label for="email">Email Address:</label><br>
+  <input type="email" id="email" name="email" placeholder="Email Address" required><br>
+  <label for="signup">Join our mailing list?</label> 
+  <input type="radio" id="yes" name="signup" value="yes"> Yes
+  <input type="radio" id="no" name="signup" value="no"> No <br><br>
+  <label for="textbox">How can we help today?</label>
+  <textarea id='textbox' cols='50' rows='10' name='textbox' placeholder='Use this space to let us know your thoughts:' required></textarea><br><br>
+  <input class="formSubmit" type="submit" value="Submit">
+</form>
+</div>
+<div>
+  <img  class="img2" src="assets/images/jpeg-png/group.jpg" alt="Group of women laughing">  
+</div>
+</div>
 </footer>
 </body>
 </html>
