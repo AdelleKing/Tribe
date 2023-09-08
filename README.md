@@ -1,93 +1,165 @@
-<h1 align="center">Tribe</h1>
+# **Tribe**
+## **Site Overview**
+Welcome to Tribe - the number one destination for the African and Caribbean communty. Here at Tribe we foster a passion to connect and enhance the African and Caribbean communties in rural areas. Connect with others by joining activities being hosted by people like yourself, or host your own activity. Find Balck Owned businesses providing the products and services you need, using the business directory. Build new relationships with the secure profile portal which includes a chat function. 
 
-[View the live project here.]
+![Am I responsive screenshot](docs/screenshots/amires.png)
 
-<h2 align="center"><img src="add pic"></h2>
+## Table of contents:
+1. [**Site Overview**](#site-overview)
+1. [**Planning stage**](#planning-stage)
+    * [***Target Audiences***](#target-audiences)
+    * [***User Stories***](#user-stories)
+    * [***Site Aims***](#site-aims)
+    * [***How Is This Will Be Achieved:***](#how-this-will-be-achieved)
+    * [***Wireframes***](#wireframes)
+    * [***Color Scheme***](#color-scheme)
+    * [***Technology Used***](#Technology-Used)
+    * [***Languages Used***](#Languages-Used)
+    * [***Frameworks, Libraries & Programs Used***](#Frameworks,-Libraries-&-Programs-Used)
+1. [**Current Features Common to all pages**](#current-features-common-to-all-pages)
+    * [***Header Element:***](#header-element)
+        * [*Title*](#title)
+        * [*Logos*](#logos)
+        * [*Navigation Bar*](#navigation-bar)
+        * [*African Print Design*](#African-Print-Design)    
+    * [**Footer**](#footer)
+1. [**Future-Enhancements**](#future-enhancements)
+1. [**Testing Phase**](#testing-phase)
+        * [*Testing*](#Testing)
+        * [*Testing User Stories from User Experience (UX) Section*](#Testing-User-Stories-from-User-Experience-(UX)-Section)
+        * [*First Time Visitor Goals*](#First-Time-Visitor-Goals)
+        * [*Returning Visitor Goals*](#Returning-Visitor-Goals)
+        * [*Frequent User Goals*](#Frequent-User-Goals)
+        * [*Further Testing*](#Further-Testing)
+1. [**Known Bugs**](#Known-Bugs)
+1. [**Deployment**](#deployment)
+1. [**Credits**](#credits)
+    * [**Honorable mentions**](#honorable-mentions)
+    * [**General reference**](#general-reference)
+    * [**Content**](#content)
+    * [**Media**](#media)
 
-## User Experience (UX)
+## **Planning stage**
+### **Target Audiences:**
+* Members of the African and Caribbean Community 
+* Users who want to meet others, explore thier local area and foster new relationships.
+* Users who are looking for businesses which represents thier needs.
+* Users who own businesses which the target audience would be interested in.
 
--   ### User stories
+### **User Stories:**
+* As a user, I want to see upcoming events.
+* As a user, I want to be able to search for events based on certain serach criteria e.g. location, date, activity type.
+* As a user, I want to navigate through the site with ease.
+* As a user, I want to know my information is secure to enable me to interact with others confidently.
+* As a user, I want the ability to find businesses local to me which offer the product or service for my needs.
 
-    -   #### First Time Visitor Goals
+### **Site Aims:**
+* To create a safe and welcoming, dedicated space for the African and Caribbean community.
+* To provide activities to promote social interactions, cultural connections, relationahip building, business awareness and a sense of community.
+* Represent the African and Caribbean community
+* Enable users to interacte with the site through thier profile, hostign activities and promoting thier business.
 
-        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the activities.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find activities to attend.
-        3. As a First Time Visitor, I want to be able to communicate with others also attending the activites.
-        4. As a First Time Visitor, I want to be able to see activities which are close to me or filtered to those aligned to my interests. 
+### **How This Will Be Achieved:**
+* The Activities page will showcase upcoming activities for users to RSVP.
+* When users are logged into the site they will see the activities sign up for and the ability to contact others, with a profile, who are also attending the activity and the host.
+* Activities will can be filtered based on popular search criteria e.g. location, activity type.
+* Users will be able to log into a profile and personalise this to enable communication with others and the activity host - using a varification process. ( users who are not logged in can send RSVP or questions using the feedback forms provided.) 
 
-    -   #### Returning Visitor Goals
+* Notifications can be turned on to enable users with an account to receive updates.
 
-        1. As a Returning Visitor, I want to see how many people are attending activities.
-        2. As a Returning Visitor, I want to be able to communicate with the host of the activities.
-        3. As a Returning Visitor, I want to see the activities I have previously attended.
+### **Wireframes:**
+I used Balsamiq to create a visual representation of the Tribe site - below are the initial idea designs:
 
-    -   
--   ### Design
-    -   #### Colour Scheme
+* Desktop Wireframes:
+    * [Homepage (index.html)](assets/images/index_wireframe.png)
+    * [Activities (activities.html)](assets/images/actvities_wireframe.png)
+    * [Busness](assets/images/business_wireframe.png)
+    * [SignUp](assets/images/signUp_wireframe.png)
 
-    There will be a deep red colour contrasted against white. The main feature will be an african print, used for the borders of the activities and business slide decks.
-        -   (90, 37, 40 , 0) Tall Poppy
-        
-        (166, 74, 77, 0) Apple Blossom
-    -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
-    -   #### Imagery
-        - hero image is designed by Adelle King using Canva and personally taken photos.
-        -   [Pexels](https://www.pexels.com/search/park) images below have been taken from Pexels.
-        - picture of the park - Photo by Abby Chung from Pexels: https://www.pexels.com/photo/photography-of-playground-1134000/Imagery 
-        picture of coffee - Photo by Mizuno K from Pexels: https://www.pexels.com/photo/man-making-coffee-in-cafe-13735847/
-        picture of adults only -  Photo by EKATERINA  BOLOVTSOVA: https://www.pexels.com/photo/men-and-woman-dancing-5956956/
-        picture of beach - Photo by Julia Kuzenkov from Pexels: https://www.pexels.com/photo/ocean-under-cloudy-sky-1974521/
-        picture of comedy - Photo by Faruk Tokluoğlu from Pexels: https://www.pexels.com/photo/black-and-white-photo-of-man-performing-on-scene-10063045/
-        picture of dinner - Photo by Mister Mister from Pexels: https://www.pexels.com/photo/shrimp-dish-3434523/
+* Desktop wireframes:
+    * [Homepage (About)](docs/screenshots/wireframe1.jpg)
 
-*   ### Wireframes
+There was some deviation from the original wireframes due to time and additional functunality needed to support the designs
 
-    -   Home Page Wireframe - [View](https://github.com/)
+* The Business page were not created due to the need for backend functionality which was out of the scope of this project.
+* The signup page also required the need for backend functonality, a standard form is used to enable sign up, currently, and the sign in form has been omitted until the backend functionality is avaikable.
+* The ability to search and use a map functionality also required backend functionality and were left out at this stage.
+* To improve the User experience, the hero image was removed from all pages except the index page, as users could not diferentiate between pages when using the navigation bar until they scrolled down. 
+* Social media links were omitted at this stage as these have not been created yet to support the website. 
 
-    -   Mobile Wireframe - [View](https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+### **Color Scheme:**
+I wanted the colour scheme to be a dark colour which contrasted a white background, I choose rgba(153,30,2, 1) Totem pole for the main background colours and the main font colours. Contrasting with a white font colour against the totem pole background. I have also used black font in places where I felt it was needed to diferentiate between areas. 
 
-## Features
+This color also complimented the Afican print design I wanted to in corporate into the website - I used this as a background on the activities elements of the site.
 
--   Responsive on all device sizes
-
--   Interactive elements
-
-## Technologies Used
-
-### Languages Used
+### **Technology Used:**
+## Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
-1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Hover.css was used on the navigation links
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - Font Awesome was used on the forms on the activity page. Further icons will be used for the social media icons, once accounts have been set up.
 1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Git was used for version control by utilizing the command line terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+    - GitHub was used to store the project code after being pushed from Git.
+1. [Canva:](https://www.canva.com/)
+    - Canva was used to create the logo and to create the hero image.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 1. [ImageColorPicker:](https://imagecolorpicker.com/)
     -Image Color Picker was used to select the colors for my background, container backgrounds and text. 
 1. [Activites gallery:] (https://github.com/Patalin/CSS-Image-Hover-Effect/tree/main) 
-    - code used to design the gallery within the activities page. HOW DO I WRitE THAT THE TABLE ADDITION WAS MY OWN CODE?
+    - code used to make the gallery on the activities page interactive. 
 
-## Testing
+## **Current Features Common to all pages**
+###  **Header Element**
+The header is used throughout the site to hold the navigation bar and the site title.
+
+### *Logos:*
+* Although a logo was created, I found this dificult to align on the page, so it was omtted due to time restraints.
+![Logo](assets/images/logo.png)
+
+### *Navigation Bar:*
+* The navigation bar appears on all three pages. 
+* It contains links to the Activities and About pages.
+![Navigation bar](assets/images/screenshots/navbar.png)
+
+### *African Print Design:*
+* This print was intergral to ensure there was a recognisable cultural element within the site - this is used as a border around activities.
+![African Print Design](assets/images/african-print.webp)
+
+
+## **Footer**
+* The footer holds the contact us form, this is replicated throughout the site.
+
+![Page footer](docs/screenshots/footer.jpg)
+
+## **Future-Enhancements**
+
+* In the future, this site will enable locality hubs - to enable nation-wide activities.
+
+* I would also like to include activities which are based abroad, female only trips etc.
+
+* I would also like to host business podcasts or a blog, where Black Owned businesses could talk more about their services or products and where start ups could connect with the established communty and gain resources whie they start their entraprunura journy.
+
+* With the backend functionality I will be able to include aspects like searchable activities and busnesses, a profile area and chat function.
+
+* There should also be a payment element to enable bigger activities where a charge/booking fee/ reservation fee may be needed. 
+
+* To support growth, I will link social media and google accounts. I will also enable sign up functionalty where I can store and use contact infromation for marketing and promotional material.
+
+
+
+### **Testing Phase**
+
+## **Testing**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -157,91 +229,42 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
-### Known Bugs
+### ***Known Bugs***
 
--   adding the bootstrap link caused the border image to disable. - removed bootstrap link and used CSS to obtain result.
-- adding event listener to map caused map to disappear 
-![Image](../Tribe/assets/images/bug-screenshots/broken-map.png) - bug fixed by editing code
+* adding the bootstrap link caused the border image to disable. - removed bootstrap link and used CSS to obtain result.
+* adding event listener to map caused map to disappear 
+![Image](assets/images/bug-screenshots/broken-map.png) - bug fixed by editing code
 
 
-### Further developments
-Should I have had further time and resource the following would have been included within the website:
-- A sign up page, which woul dhave lead to a user profile area, the ability to see previously attended activities, a chat function with other memembers and the ability to add a personalised profile picture.
-- The ability to search for activities based on various criteria e.g. date, location, activity type. 
+## **Deployment**
+I deployed the page on GitHub pages via the following procedure: -
 
-## Deployment
+1. From the project's [repository](https://github.com/AdelleKing/Tribe), go to the **Settings** tab.
+2. From the left-hand menu, select the **Pages** tab.
+3. Under the **Source** section, select the **Main** branch from the drop-down menu and click **Save**.
+4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
-### GitHub Pages
+***
+## **Credits**
+### **Honorable mentions**
+This project could not have happened without the support of the following people listed in no particular order:
 
-The project was deployed to GitHub Pages using the following steps...
+* [Komal Karir ](https://github.com/kkarir-waes) - My course tutor who was always on hand whenever I had a question and also provided great insight into the world of software development.
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
-3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
-4. Under "Source", click the dropdown called "None" and select "Master Branch".
-5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+* [Komal Karir ](https://github.com/kkarir-waes) - My Code Institue mentor was able to see what I was trying to create and helped me simplify my code - alot of 'Oh I see' moments - thank you.
 
-### Forking the GitHub Repository
+* The slack channels and other online support forums where I found a wealth of information, great inspiration and the courage to carry on through the difficult times of this project.
 
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+### **General reference:**
+* I really enjoyed using this website, the use of borders and colours really engaged me. I was unable to use any of the inspiration from ths site in my own as the imagry was graphic design based - however, I did take inspiration from here.[Peanut](https://www.peanut-app.io/about-us)
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-3. You should now have a copy of the original repository in your GitHub account.
+* I relied upon W3schools, youtube and stack overflow for general how to's throughout the project alongside course material from Code Institute. 
 
-### Making a Local Clone
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-2. Under the repository name, click "Clone or download".
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-4. Open Git Bash
-5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-```
-
-7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
-
-Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
-
-## Credits
-
-### Code
-
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
-
-- To make the map interactive I used this you tube video [Add dynamic map to your website] (https://youtu.be/iNdUiMBlxIM)
-
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
-
--   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
-
-### Content
-
--   All content was written by the developer.
-
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
-### Media
-
--   All Images were created by the developer.
-
-### Acknowledgements
-
--   My Mentor for continuous helpful feedback.
-
--   Tutor support at Code Institute for their support.
->>>>>>> 6b307c4 (edits to readme, index, activities, signup, about pages)
+### **Content:**
+* Most of the content was written by myself.
+* Icons in the forms were taken from [Font Awesome](https://fontawesome.com) 
+* Accessibility checker - [WAVE - Web accessibility evaluation tool](https://wave.webaim.org/)
+  
+### **Media:**
+* Images used for activities were taken from [Pexels](https://www.pexels.com/)
+* The Hero image was created by myself using canva and personally take photos. 

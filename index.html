@@ -67,8 +67,24 @@
   </div>
 
 </div>
-<footer>
-	<div class="site-info"> <i class="fa-regular fa-copyright"></i> Adelle King</div>
+<footer>	
+	<div class="site-info">  <form class="formContents" action="https://formdump.codeinstitute.net/" target="_blank" method='post'>
+   <label for="name">Your name:</label> <br>
+  <input type="text" id="name" name="name" placeholder="First name" required> <input type="text" id="name" name="name" placeholder="Last name" required><br>  
+  <label for="activityName">Activity title:</label><br>
+  <input type="text" id="activityName" name="activityName" placeholder="Beach Trip" required><br>
+  <label for="activityDate">Activity date:</label><br>
+  <input type="date" id="activityDate" name="activityDate" placeholder="23rd Aug 2023" required>
+  <label for="activityTIme">Activity time:</label>
+  <input type="time" id="activityTime" name="activityTime" placeholder="10am" required><br>
+  <label for="activityLocation">Activity location:</label><br>
+  <input type="text" id="activityLocation" name="activityLocation" placeholder="Maidstone" required><br><br>
+  <label for="myfile">Upload a picture for your activity</label>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <label for="activityDetails">Activity details:</label><br>
+  <textarea id='activityDetails' cols='50' rows='10' name='activityDetails' placeholder='Add further details of the activity' required></textarea><br><br>
+  <input class="formSubmit" type="submit" value="Submit">
+</form><i class="fa-regular fa-copyright"></i> Adelle King</div>
 </footer>
 </body>
 </html>
