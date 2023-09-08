@@ -1,6 +1,6 @@
 # **Tribe**
 ## **Site Overview**
-Welcome to Tribe - the number one destination for the African and Caribbean communty. Here at Tribe we foster a passion to connect and enhance the African and Caribbean communties in rural areas. Connect with others by joining activities being hosted by people like yourself, or host your own activity. Find Balck Owned businesses providing the products and services you need, using the business directory. Build new relationships with the secure profile portal which includes a chat function. 
+Welcome to Tribe - the number one destination for the African and Caribbean community. Here at Tribe we foster a passion to connect and enhance the African and Caribbean communities in rural areas. Connect with others by joining activities being hosted by people like yourself, or host your own activity. Find Black Owned businesses providing the products and services you need, using the business directory. Build new relationships with the secure profile portal which includes a chat function. 
 
 ![Am I responsive screenshot](docs/screenshots/amires.png)
 
@@ -35,7 +35,7 @@ Welcome to Tribe - the number one destination for the African and Caribbean comm
 1. [**Known Bugs**](#Known-Bugs)
 1. [**Deployment**](#deployment)
 1. [**Credits**](#credits)
-    * [**Honorable mentions**](#honorable-mentions)
+    * [**Honourable mentions**](#honorable-mentions)
     * [**General reference**](#general-reference)
     * [**Content**](#content)
     * [**Media**](#media)
@@ -43,28 +43,28 @@ Welcome to Tribe - the number one destination for the African and Caribbean comm
 ## **Planning stage**
 ### **Target Audiences:**
 * Members of the African and Caribbean Community 
-* Users who want to meet others, explore thier local area and foster new relationships.
-* Users who are looking for businesses which represents thier needs.
+* Users who want to meet others, explore their local area and foster new relationships.
+* Users who are looking for businesses which represents their needs.
 * Users who own businesses which the target audience would be interested in.
 
 ### **User Stories:**
 * As a user, I want to see upcoming events.
-* As a user, I want to be able to search for events based on certain serach criteria e.g. location, date, activity type.
+* As a user, I want to be able to search for events based on certain search criteria e.g. location, date, activity type.
 * As a user, I want to navigate through the site with ease.
 * As a user, I want to know my information is secure to enable me to interact with others confidently.
 * As a user, I want the ability to find businesses local to me which offer the product or service for my needs.
 
 ### **Site Aims:**
 * To create a safe and welcoming, dedicated space for the African and Caribbean community.
-* To provide activities to promote social interactions, cultural connections, relationahip building, business awareness and a sense of community.
+* To provide activities to promote social interactions, cultural connections, relationship building, business awareness and a sense of community.
 * Represent the African and Caribbean community
-* Enable users to interacte with the site through thier profile, hostign activities and promoting thier business.
+* Enable users to interact with the site through thier profile, hostign activities and promoting their business.
 
 ### **How This Will Be Achieved:**
 * The Activities page will showcase upcoming activities for users to RSVP.
 * When users are logged into the site they will see the activities sign up for and the ability to contact others, with a profile, who are also attending the activity and the host.
 * Activities will can be filtered based on popular search criteria e.g. location, activity type.
-* Users will be able to log into a profile and personalise this to enable communication with others and the activity host - using a varification process. ( users who are not logged in can send RSVP or questions using the feedback forms provided.) 
+* Users will be able to log into a profile and personalise this to enable communication with others and the activity host - using a verification process. ( users who are not logged in can send RSVP or questions using the feedback forms provided.) 
 
 * Notifications can be turned on to enable users with an account to receive updates.
 
@@ -74,25 +74,25 @@ I used Balsamiq to create a visual representation of the Tribe site - below are 
 * Desktop Wireframes:
     * [Homepage (index.html)](assets/images/index_wireframe.png)
     * [Activities (activities.html)](assets/images/actvities_wireframe.png)
-    * [Busness](assets/images/business_wireframe.png)
+    * [Business](assets/images/business_wireframe.png)
     * [SignUp](assets/images/signUp_wireframe.png)
 
 * Desktop wireframes:
     * [Homepage (About)](docs/screenshots/wireframe1.jpg)
 
-There was some deviation from the original wireframes due to time and additional functunality needed to support the designs
+There was some deviation from the original wireframes due to time and additional functionality needed to support the designs
 
 * The Business page were not created due to the need for backend functionality which was out of the scope of this project.
-* The signup page also required the need for backend functonality, a standard form is used to enable sign up, currently, and the sign in form has been omitted until the backend functionality is avaikable.
+* The signup page also required the need for backend functionality, a standard form is used to enable sign up, currently, and the sign in form has been omitted until the backend functionality is available.
 * The ability to search and use a map functionality also required backend functionality and were left out at this stage.
-* To improve the User experience, the hero image was removed from all pages except the index page, as users could not diferentiate between pages when using the navigation bar until they scrolled down. 
+* To improve the User experience, the hero image was removed from all pages except the index page, as users could not differentiate between pages when using the navigation bar until they scrolled down. 
 * Social media links were omitted at this stage as these have not been created yet to support the website. 
 
 
 ### **Color Scheme:**
-I wanted the colour scheme to be a dark colour which contrasted a white background, I choose rgba(153,30,2, 1) Totem pole for the main background colours and the main font colours. Contrasting with a white font colour against the totem pole background. I have also used black font in places where I felt it was needed to diferentiate between areas. 
+I wanted the colour scheme to be a dark colour which contrasted a white background, I choose rgba(153,30,2, 1) Totem pole for the main background colours and the main font colours. Contrasting with a white font colour against the totem pole background. I have also used black font in places where I felt it was needed to differentiate between areas. 
 
-This color also complimented the Afican print design I wanted to in corporate into the website - I used this as a background on the activities elements of the site.
+This color also complimented the African print design I wanted to incorporate into the website - I used this as a background on the activity elements of the site.
 
 ### **Technology Used:**
 ## Languages Used
@@ -116,7 +116,7 @@ This color also complimented the Afican print design I wanted to in corporate in
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 1. [ImageColorPicker:](https://imagecolorpicker.com/)
     -Image Color Picker was used to select the colors for my background, container backgrounds and text. 
-1. [Activites gallery:] (https://github.com/Patalin/CSS-Image-Hover-Effect/tree/main) 
+1. [Activities gallery:] (https://github.com/Patalin/CSS-Image-Hover-Effect/tree/main) 
     - code used to make the gallery on the activities page interactive. 
 
 ## **Current Features Common to all pages**
@@ -124,7 +124,7 @@ This color also complimented the Afican print design I wanted to in corporate in
 The header is used throughout the site to hold the navigation bar and the site title.
 
 ### *Logos:*
-* Although a logo was created, I found this dificult to align on the page, so it was omtted due to time restraints.
+* Although a logo was created, I found this difficult to align on the page, so it was omitted due to time restraints.
 ![Logo](assets/images/logo.png)
 
 ### *Navigation Bar:*
@@ -133,7 +133,7 @@ The header is used throughout the site to hold the navigation bar and the site t
 ![Navigation bar](assets/images/screenshots/navbar.png)
 
 ### *African Print Design:*
-* This print was intergral to ensure there was a recognisable cultural element within the site - this is used as a border around activities.
+* This print was integral to ensure there was a recognisable cultural element within the site - this is used as a border around activities.
 ![African Print Design](assets/images/african-print.webp)
 
 
@@ -148,13 +148,13 @@ The header is used throughout the site to hold the navigation bar and the site t
 
 * I would also like to include activities which are based abroad, female only trips etc.
 
-* I would also like to host business podcasts or a blog, where Black Owned businesses could talk more about their services or products and where start ups could connect with the established communty and gain resources whie they start their entraprunura journy.
+* I would also like to host business podcasts or a blog, where Black Owned businesses could talk more about their services or products and where start ups could connect with the established community and gain resources while they start their entrepreneurial journey.
 
-* With the backend functionality I will be able to include aspects like searchable activities and busnesses, a profile area and chat function.
+* With the backend functionality I will be able to include aspects like searchable activities and businesses, a profile area and chat function.
 
 * There should also be a payment element to enable bigger activities where a charge/booking fee/ reservation fee may be needed. 
 
-* To support growth, I will link social media and google accounts. I will also enable sign up functionalty where I can store and use contact infromation for marketing and promotional material.
+* To support growth, I will link social media and google accounts. I will also enable sign up functionality where I can store and use contact information for marketing and promotional material.
 
 
 
@@ -201,7 +201,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
         3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
         4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
+        5. The email button is set up to automatically open up your email app and autofill their email address in the "To" section.
 
     3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
         1. The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
@@ -256,19 +256,19 @@ I deployed the page on GitHub pages via the following procedure: -
 
 ***
 ## **Credits**
-### **Honorable mentions**
+### **Honourable mentions**
 This project could not have happened without the support of the following people listed in no particular order:
 
 * [Komal Karir ](https://github.com/kkarir-waes) - My course tutor who was always on hand whenever I had a question and also provided great insight into the world of software development.
 
-* [Komal Karir ](https://github.com/kkarir-waes) - My Code Institue mentor was able to see what I was trying to create and helped me simplify my code - alot of 'Oh I see' moments - thank you.
+* [Komal Karir ](https://github.com/kkarir-waes) - My Code Institute mentor was able to see what I was trying to create and helped me simplify my code - a lot of 'Oh I see' moments - thank you.
 
 * The slack channels and other online support forums where I found a wealth of information, great inspiration and the courage to carry on through the difficult times of this project.
 
 ### **General reference:**
-* I really enjoyed using this website, the use of borders and colours really engaged me. I was unable to use any of the inspiration from ths site in my own as the imagry was graphic design based - however, I did take inspiration from here.[Peanut](https://www.peanut-app.io/about-us)
+* I really enjoyed using this website, the use of borders and colours really engaged me. I was unable to use any of the inspiration from this site in my own as the imagery was graphic design based - however, I did take inspiration from here.[Peanut](https://www.peanut-app.io/about-us)
 
-* I relied upon W3schools, youtube and stack overflow for general how to's throughout the project alongside course material from Code Institute. 
+* I relied upon W3schools, youtube and stack overflow for general 'how to's' throughout the project alongside course material from Code Institute. 
 
 ### **Content:**
 * Most of the content was written by myself.
