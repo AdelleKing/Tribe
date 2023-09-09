@@ -283,18 +283,18 @@ h4{
   height: 60%;
 }
 
-.activitiesBox{
+.aboutContainerBox{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 80%;
+  
 }
 
 .box1{
   background-color: #F1F2F4;
-  height: 50% ;
-  width: 100%;
-  float: right;
+  
+  width: 80%;
+  
   text-align: center;
 }
 
@@ -302,33 +302,19 @@ h4{
   color: rgba(153, 30, 2, 1) ;
 }
 
-.box2{
-  height: 400px;
-  width: 300px;
-  float: left;
+.aboutPageText {
+  margin: 10px;
 }
 
 .img1 {
   border-radius: 40%;
   justify-content: right;  
-  height: 100%;
-  width: 220%;
+  height: 70%;
+  width: 50%;
 }
 
-.insidebox1 {
-float: left;
-background-color: orange;
-z-index: 1;
-display: inline-flex;
-flex-direction: column;
-}
-
-.insidebox2 {
-float: right;
-background-color: darkred;
-z-index: 1;
-display: inline-flex;
-flex-direction: column;
+.map {
+  width: 100%;
 }
 
 /***footer**/
