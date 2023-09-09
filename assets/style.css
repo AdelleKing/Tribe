@@ -62,13 +62,20 @@ a {
 
 /* hero image*/
 
-
+.hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
 .hero-image{
     height:600px;
     width: 100%;
-    background: url("../assets/images/hero-image.webp") no-repeat center center;
+    background:url("../assets/images/jpeg-png/hero-image.png") no-repeat center center;
     margin: 0;
-
+    padding: 0;
 }
 
 
