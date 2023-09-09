@@ -228,20 +228,16 @@ p {
 .form {
   background-color: rgba(153, 30, 2, 1);  
   margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .formHeader {
   text-align: center;
 }
 
-
-.innerForm {
-  color: #F1F2F4;
-  align-items: center;
-}
-
 input, textarea {
   background-color: #F8EBEB;
+  border-radius: 7px;
 }
 
 
@@ -252,11 +248,13 @@ input, textarea {
 
 h4{
   color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 .formContents {
   margin:0 10% 0 10%;
+
  
 }
 
