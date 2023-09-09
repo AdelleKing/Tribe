@@ -227,6 +227,7 @@ p {
 
 .form {
   background-color: rgba(153, 30, 2, 1);  
+  margin: 50px;
 }
 
 .formHeader {
@@ -235,7 +236,6 @@ p {
 
 
 .innerForm {
-  padding: 0 0 0 350px;
   color: #F1F2F4;
   align-items: center;
 }
@@ -244,14 +244,10 @@ input, textarea {
   background-color: #F8EBEB;
 }
 
-.form1 {
-  margin: 30px;  
-  background-color: rgba(153, 30, 2, 1);
 
-}
 
 .formHeader {
-  margin: 0;
+  margin: 10px;
 }
 
 h4{
@@ -260,8 +256,8 @@ h4{
 
 
 .formContents {
-  margin: 30px 20px 30px 100px;
-  color: #F1F2F4;
+  margin:0 10% 0 10%;
+ 
 }
 
 .formSubmit {
