@@ -386,7 +386,6 @@ display: flex;
   flex-wrap: wrap;
     font-size: 80%;
     list-style-type: none; 
-  
 }
 
 #menu li {
@@ -401,6 +400,30 @@ display: flex;
 .activity-info {
   font-size: 30px;
 }
+
+
+/**** ACTIVITIES PAGE****/
+
+.eventText {
+  font-size: 14px;
+}
+
+.table-data{
+  font-size: 15px ;
+}
+
+.formHeader{
+  font-size: 15px;
+  
+}
+
+.formContents{
+  margin: 10px;
+  width: 100%;
+  display: inline-grid;
+
+}
+
 }
 
 /* mobile Medium 375px*/
