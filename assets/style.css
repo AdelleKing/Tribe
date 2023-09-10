@@ -521,7 +521,6 @@ h2 {
  width: 100%;
 }
 
-
 .formContents {
   margin: 0;
   color: #F1F2F4;
@@ -530,6 +529,26 @@ h2 {
 .formSubmit {
   margin: 0;
 }
+
+/****ABOUT PAGE****/
+
+.aboutContainerBox{
+  flex-wrap: wrap;
+}
+
+.box1{
+flex-wrap: wrap;
+}
+
+.img1{
+width: 100%;
+margin-top: 40px;
+}
+
+#aboutpageH2{
+  font-size: 30px;
+}
+
 
 }
 
