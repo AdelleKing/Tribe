@@ -372,12 +372,39 @@ h4{
 
 /*------------------media queries---*/
 /*mobile small 320px*/
-@media all  and (max-width: 319px) {
 
+@media screen  and (max-width: 320px) {
+
+/****HOME PAGE****/
+
+header{
+display: flex;
+  flex-direction: column;
+}
+
+#menu{
+  flex-wrap: wrap;
+    font-size: 80%;
+    list-style-type: none; 
+  
+}
+
+#menu li {
+    float: right;
+    margin-right: 10px;
+   }
+
+.h2{
+  font-size: 30px;
+}
+
+.activity-info {
+  font-size: 30px;
+}
 }
 
 /* mobile Medium 375px*/
-
+/* seems to be fine - not further edits*/
 
 /* mobile Large 425px*/
 
