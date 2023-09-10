@@ -380,6 +380,8 @@ h4{
 
 
 /* mobile Large 425px*/
+
+/****HOME PAGE****/
 @media screen  and (max-width: 425px) {
 
 #menu{
@@ -424,10 +426,6 @@ line-height: 40px;
 font-size: 20px;
 }
 
-.pageHeading {
-  
-}
-
 .featuredContainerOuter{
   flex-wrap: wrap;
 }
@@ -442,7 +440,6 @@ font-size: 20px;
   font-size: 50px;
 }
 
-
 .findOutMore{
   font-size: 16px;  
   width: 100px;
@@ -454,28 +451,74 @@ font-size: 20px;
 
 
 /****ACTIVITIES PAGE***/
+
+/*activities section*/
 .flex-container1 {
   margin: 0;
   flex-wrap: wrap;
 }
 
-.images {
+#imagesActivities {
   width:100%;
-  height:auto;
+}
+
+#imagesIndex{
+  width: 100%;
+  height: auto;
 }
 
 h2 {
   font-size: 40px;
 }
 
-.table-data {
-  text-align: left;
-  font-size: 15px;
+.flip-card-inner{
+  height: 80%;
 }
 
+.flip-card-front{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flip-card-back{
+  display: flex;
+  flex-direction: column;
+}
+
+.activityTitle {
+  width: 100%;
+  justify-content: center;
+}
+
+.activitiesH2{
+  font-size: 25px;
+}
+
+.table-data {
+  text-align: left;
+  font-size: 20px;
+}
+
+.eventText{
+  font-size:20px ;
+}
+
+/*forms section*/
+
+.flex-container2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form{
+  flex-wrap: wrap;
+}
 
 .formHeader{
  padding: 5px;
+ font-size: 20px;
+ justify-content: center;
+ width: 100%;
 }
 
 
