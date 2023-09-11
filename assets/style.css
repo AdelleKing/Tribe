@@ -506,7 +506,7 @@ width: 100%;
 
 /***ABOUT PAGE ***/
 
-/**ABout page test**/
+/**About page text**/
 
 .aboutContainerBox{
   display: flex;
@@ -573,7 +573,7 @@ h1{
 }
 
 .pageHeading{
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /***Featured activities boxes***/
@@ -668,6 +668,30 @@ width: 100%;
 #activityDetails{
   width: 90%;
 }
+
+/***ABOUT PAGE ***/
+
+/**About page text**/
+
+.aboutContainerBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#aboutpageH2{
+  font-size: 20px;
+  margin: 5%;
+}
+.img1{
+  width: 100%;
+}
+
 
 }
 
