@@ -144,7 +144,9 @@ a {
   }
 
 
-/*activities page activities containers */
+/*activities page***/ 
+
+/***activities containers */
 
 
 .flex-container1{
@@ -349,9 +351,6 @@ h4{
 
 /***footer**/
 
-
-
-
 #social-networks{
   text-align: center;
     padding: 20px 0;
@@ -375,6 +374,96 @@ h4{
 
 @media screen  and (max-width: 320px) {
 
+/****HOME PAGE****/
+
+header{
+display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#menu{
+  flex-wrap: wrap;
+    font-size: 90%;
+    list-style-type: none; 
+}
+
+#menu li {
+    float: right;
+    margin-right: 10px;
+   }
+
+/**text on home page**/
+
+.site-info{
+  line-height: 50px;
+}
+
+/***August Top Picks Text**/
+
+.pageHeading {
+margin: 10px;
+}
+
+.h2{
+  font-size: 30px;
+}
+
+/***Featured activities boxes***/
+
+.featuredContainerOuter{
+  display: flex;
+  flex-direction: column;   
+}
+
+.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter {
+width: 80%;
+flex-wrap: wrap;
+}
+
+.images {
+  width: 100%;
+  height: auto;
+}
+
+.activity-info {
+  font-size: 30px;
+}
+
+
+
+
+/**** ACTIVITIES PAGE****/
+
+.eventText {
+  font-size: 14px;
+}
+
+.table-data{
+  font-size: 15px ;
+}
+
+.formHeader{
+  font-size: 15px;
+
+}
+
+.formContents{
+  margin: 10px;
+  width: 100%;
+  display: inline-grid;
+
+}
+
+/***ABOUT PAGE ***/
+#aboutpageH2{
+  font-size: 20px;
+}
+
+}
+
+/* mobile Medium 375px*/
+@media screen  and (max-width: 375px) {
 /****HOME PAGE****/
 
 header{
@@ -414,7 +503,7 @@ display: flex;
 
 .formHeader{
   font-size: 15px;
-  
+
 }
 
 .formContents{
@@ -424,181 +513,71 @@ display: flex;
 
 }
 
+/***ABOUT PAGE ***/
+#aboutpageH2{
+  font-size: 20px;
 }
 
-/* mobile Medium 375px*/
-/* seems to be fine - not further edits*/
+}
+
 
 /* mobile Large 425px*/
 
 /****HOME PAGE****/
 @media screen  and (max-width: 425px) {
 
+/***HOME PAGE***/
+header{
+display: flex;
+  flex-direction: column;
+}
+
 #menu{
-    font-size: 90%;
-    list-style-type: none;
-    letter-spacing: 1px;
+  flex-wrap: wrap;
+    font-size: 80%;
+    list-style-type: none; 
 }
 
 #menu li {
     float: right;
+    margin-right: 10px;
    }
 
-.hero-outer{
-    height:600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-.hero-image{
-    height:600px;
-    width: 100%;
-    background:url("../assets/images/jpeg-png/hero-image.png") no-repeat center center;
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  font-size: 15px;
-}
-
-
-.site-info{
-margin: 0;
-padding: 0;
-line-height: 40px;
-font-size: 20px;
-}
-
-.featuredContainerOuter{
-  flex-wrap: wrap;
-}
-
-.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter{
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.activity-info {
-  flex-wrap: wrap;
-  font-size: 50px;
-}
-
-.findOutMore{
-  font-size: 16px;  
-  width: 100px;
-  justify-content: center;
-  color: rgba(153, 30, 2, 1);
-}
-
-
-
-
-/****ACTIVITIES PAGE***/
-
-/*activities section*/
-.flex-container1 {
-  margin: 0;
-  flex-wrap: wrap;
-}
-
-#imagesActivities {
-  width:100%;
-}
-
-#imagesIndex{
-  width: 100%;
-  height: auto;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-.flip-card-inner{
-  height: 80%;
-}
-
-.flip-card-front{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.flip-card-back{
-  display: flex;
-  flex-direction: column;
-}
-
-.activityTitle {
-  width: 100%;
-  justify-content: center;
-}
-
-.activitiesH2{
-  font-size: 25px;
-}
-
-.table-data {
-  text-align: left;
-  font-size: 20px;
-}
-
-.eventText{
-  font-size:20px ;
-}
-
-/*forms section*/
-
-.flex-container2{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.form{
-  flex-wrap: wrap;
-}
-
-.formHeader{
- padding: 5px;
- font-size: 20px;
- justify-content: center;
- width: 100%;
-}
-
-.formContents {
-  margin: 0;
-  color: #F1F2F4;
-}
-
-.formSubmit {
-  margin: 0;
-}
-
-/****ABOUT PAGE****/
-
-.aboutContainerBox{
-  flex-wrap: wrap;
-}
-
-.box1{
-flex-wrap: wrap;
-}
-
-.img1{
-width: 100%;
-margin-top: 40px;
-}
-
-#aboutpageH2{
+.h2{
   font-size: 30px;
 }
 
+.activity-info {
+  font-size: 30px;
+}
+
+
+/**** ACTIVITIES PAGE****/
+
+.eventText {
+  font-size: 14px;
+}
+
+.table-data{
+  font-size: 15px ;
+}
+
+.formHeader{
+  font-size: 15px;
+
+}
+
+.formContents{
+  margin: 10px;
+  width: 100%;
+  display: inline-grid;
+
+}
+
+/***ABOUT PAGE ***/
+#aboutpageH2{
+  font-size: 20px;
+}
 
 }
 
