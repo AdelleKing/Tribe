@@ -421,7 +421,7 @@ width: 80%;
 flex-wrap: wrap;
 }
 
-.images {
+#imagesIndex {
   width: 100%;
   height: auto;
 }
@@ -434,6 +434,41 @@ flex-wrap: wrap;
 
 
 /**** ACTIVITIES PAGE****/
+/**Activities section FLIP CARD FRONT **/
+.flip-card-front {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activityTitle{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+#activityTitle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images {
+  width: 100%;
+  height: 70%;
+}
+
+/**Activities section FLIP CARD BACK **/
+
+.flip-card-back{
+  display: flex;
+  flex-direction: column;
+}
+
+.activitiesH2{
+  line-height: 50px;
+  font-size: 20px;
+}
 
 .eventText {
   font-size: 14px;
@@ -443,16 +478,30 @@ flex-wrap: wrap;
   font-size: 15px ;
 }
 
+/**Activities page forms**/
+
+.flex-container2{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
 .formHeader{
   font-size: 15px;
 
 }
 
 .formContents{
-  margin: 10px;
+  margin: 0;
   width: 100%;
-  display: inline-grid;
+}
 
+#activityDetails{
+  width: 80%;
 }
 
 /***ABOUT PAGE ***/
