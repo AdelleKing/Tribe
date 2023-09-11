@@ -699,7 +699,6 @@ width: 100%;
 
 /* mobile Large 425px*/
 
-/****HOME PAGE****/
 @media screen  and (max-width: 425px) {
 /****HOME PAGE****/
 
@@ -859,21 +858,200 @@ width: 100%;
   font-size: 20px;
   margin: 5%;
 }
+
 .img1{
   display: flex;
   flex-direction: row;
   width: 80%;
   margin: 10%;
- 
-}
-
+ }
 
 }
 
-/* mobile large 425px----
+/** mobile large 768px**/
 @media screen and (max-width:768px) {
-  
+  /****HOME PAGE****/
+
+/*nav bar*/
+header{
+display: flex;
+  flex-direction: column;
 }
+
+#menu{
+  flex-wrap: wrap;
+    font-size: 100%;
+    list-style-type: none; 
+}
+
+#menu li {
+    float: right;
+    margin-right: 10px;
+    
+   }
+
+/*find your people header*/
+
+h1{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 40px;
+  justify-content: center;
+}
+
+/**Home page text**/
+
+.site-info{
+  line-height: 40px;
+}
+
+/**top pick for Aug header**/
+
+#pageHeading{
+  display: flex;
+  flex-direction: column;
+}
+
+.pageHeading{
+  font-size: 20px;
+}
+
+/***Featured activities boxes***/
+
+.featuredContainerOuter{
+  display: flex;
+  flex-direction: column;   
+
+}
+
+.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter {
+display: flex;
+flex-direction: column;
+width: 90%;
+
+}
+
+#imagesIndex {
+  width: 100%;
+  height: auto;
+}
+
+.activity-info {
+  font-size: 50px;
+  justify-content: center;
+}
+
+.findOutMore{
+font-size: 30px;
+width: 100%;
+justify-content: space-around;
+}
+
+#social-networks{
+  font-size: 20px;
+}
+
+
+/**** ACTIVITIES PAGE****/
+/**Activities section FLIP CARD FRONT **/
+.flip-card-front {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activityTitle{
+display: flex;
+flex-direction: row;
+justify-content: center;
+width: 100%;
+}
+
+#activityTitle{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.images {
+  width: 100%;
+  height: 70%;
+}
+
+/**Activities section FLIP CARD BACK **/
+
+.flip-card-back{
+  display: flex;
+  flex-direction: column;
+}
+
+.activitiesH2{
+  line-height: 50px;
+  font-size: 30px;
+}
+
+.eventText {
+  font-size: 18px;
+}
+
+.table-data{
+  font-size: 15px ;
+}
+
+/**Activities page forms**/
+
+.flex-container2{
+  display: flex;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+}
+.formHeader{
+  font-size: 20px;
+
+}
+
+.formContents{
+  margin: 0;
+  width: 100%;
+}
+
+#activityDetails{
+  width: 90%;
+}
+
+/***ABOUT PAGE ***/
+
+/**About page text**/
+
+.aboutContainerBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#aboutpageH2{
+  font-size: 20px;
+  margin: 5%;
+}
+
+.img1{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 10%;
+ }
+
+}
+
 
 
 /* tablets 768px----
