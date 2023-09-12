@@ -8,6 +8,7 @@ body, html {
 
 div{
   display: flex;
+
 }
 
 /*** index page **/ 
@@ -16,6 +17,7 @@ div{
 
 header {  
   height: 11%;
+  width: 100%;
 }
 
 
@@ -25,15 +27,15 @@ header {
 }
 
 h1{
-  font-size: 50px;
+  font-size: 300%;
   text-align: center;
   color: rgba(153, 30, 2, 1);
-  margin: 0;
+  margin: 1.5%;
 }
 
 h2 {
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+  font-size: 200%;
 }
 
 #menu{
@@ -48,7 +50,7 @@ h2 {
 
 #menu li {
     float: right;
-    margin-right: 30px;
+    margin-right: 3%;
 
   }
 
@@ -58,7 +60,7 @@ h2 {
 
 a {
   text-decoration: none;
-  color: rgba(153, 30, 2, 1);*/
+  color: rgba(153, 30, 2, 1);
 }
 
 
@@ -73,6 +75,7 @@ a {
     margin: 0;
     padding: 0;
 }
+
 .hero-image{
     height:600px;
     width: 100%;
@@ -100,6 +103,7 @@ a {
   display: flex;
   justify-content: center;
   color: rgba(153, 30, 2, 1) ;
+  width: 100%;
 }  
 
 
@@ -112,7 +116,9 @@ a {
   
 }
 
-  .featuredContainerLeft{
+  .featuredContainerLeft,  .featuredContainerRight, .featuredContainerCenter {
+  display: flex;
+  flex-direction: column;
   border: 10px solid transparent;
   border-image: url(../assets/images/african-print.webp) 30 round;
   width: 28%;
@@ -122,26 +128,26 @@ a {
   padding: 15px; 
   }
 
-  .featuredContainerRight{
-  border: 10px solid transparent;
-  border-image: url(../assets/images/african-print.webp) 30 round;
-  width: 28%;
-  margin: 10px;
-  float: left;
-  text-align: center;  
-  font-size: 20px;
-  padding: 15px; 
-  }
+   .imagesIndex {
+  width: 100%;
+  height: 70%;
+  
+}
 
-  .featuredContainerCenter{
-  border: 10px solid transparent;
-  border-image: url(../assets/images/african-print.webp) 30 round;
-  width: 28%;
-  margin: 10px;
-  text-align: center;  
-  font-size: 20px;
-  padding: 15px; 
-  }
+/*Activty name */
+.activity-info{
+  justify-content: center;
+  font-size:130% ;
+}
+
+/*find out more button*/
+.findOutMore{
+  font-size: 110%;
+  justify-content: center;
+  width: 100%;
+  color: rgba(153, 30, 2, 1);
+
+}
 
 
 /*activities page***/ 
@@ -157,7 +163,8 @@ a {
 }
 
 p {
-  line-height: 40px;
+  font-size: 150%;
+  line-height: 110%;
 }
 
 
@@ -165,22 +172,24 @@ p {
 
 /* The flip card container - */
 .flip-card {
+  display: flex;
+  flex-wrap: wrap;
   background-color: transparent;
   border: 10px solid transparent;
   border-image: url(../assets/images/african-print.webp) 30 round;
-  width: 300px;
+  width: 25%;
   height: 350px;
-  margin: 20px;
+  margin: 2%;
   text-align: center;  
-  font-size: 20px;  
-  padding: 15px;
+  font-size: 20px;   
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
-.images {
-  width:80%;
-  height:300px;
+.images-Activities {
+   width: 100%;
+  height: 70%;
 }
+
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
@@ -193,18 +202,31 @@ p {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.flip-card:hover, .flip-card-inner {
   transform: rotateY(180deg);
 }
 
 /* Position the front and back side */
-.flip-card-front, .flip-card-back {
+.flip-card-front {
+  display: flex;
+  flex-direction: column;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 0;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
+
+.flip-card-back {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
@@ -218,34 +240,25 @@ p {
 
 /* activities information */
 
+
+.activitiesH2{
+font-size: 100%;
+}
 .table-data {
   text-align: left;
+  font-size: 80%;
 }
 
 .table-data2 {
-  font-size: 15px;
+  font-size: 80%;
 }
 
 .eventText {
-  font-size: 15px;
+  font-size: 80%;
   line-height: 20px;
 }
 
 
-/*find out more button*/
-.findOutMore{
-  font-size: 12px;
-  margin: 0 0 0 100px;
-  width: 100px;
-  color: rgba(153, 30, 2, 1);
-  transition: width 2s height 2s;
-  cursor: pointer;
-}
-
-.findOutMore:hover {
-  width: 150px;
-  font-size: 20px;
-}
 
 /** flex box for forms **/
 
@@ -258,13 +271,16 @@ p {
 /*form on activities page*/
 
 .form {
+  display: flex;
+  flex-direction: column;
   background-color: rgba(153, 30, 2, 1);  
-  margin: 50px;
+  margin: 2%;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .formHeader {
   text-align: center;
+  margin: 2%;
 }
 
 input, textarea {
@@ -273,11 +289,6 @@ input, textarea {
 }
 
 
-
-.formHeader {
-  margin: 10px;
-}
-
 h4{
   color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -285,23 +296,21 @@ h4{
 
 
 .formContents {
-  margin:0 10% 0 10%;
-
- 
+  margin:0 10% 0 10%; 
 }
 
 .formSubmit {
-  font-size: 20px;
-  margin: 0 0 0 150px;
-  width: 150px;
+  font-size: 1.5rem;
+ margin-left: 30%;
+  width: 25%;
   color: rgba(153, 30, 2, 1);
   transition: width 2s height 2s;
   cursor: pointer;
 }
 
 .formSubmit:hover {
-  width: 200px;
-  font-size: 20px;
+  width: 40%;
+  font-size: 2rem;
 }
 
 .formLink{
@@ -353,12 +362,12 @@ h4{
 
 #social-networks{
   text-align: center;
-    padding: 20px 0;
+    padding: 2%;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
     background-color: rgba(153, 30, 2, 1);
-
+    font-size: 1.25rem;
 }
 
 .socials {
@@ -369,719 +378,6 @@ h4{
 
 
 
-/*------------------media queries---*/
-/*mobile small 320px*/
 
-@media screen  and (max-width: 320px) {
 
-/****HOME PAGE****/
-
-header{
-display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-#menu{
-  flex-wrap: wrap;
-    font-size: 90%;
-    list-style-type: none; 
-}
-
-#menu li {
-    float: right;
-    margin-right: 10px;
-
-   }
-
-/**text on home page**/
-
-.site-info{
-  line-height: 50px;
-}
-
-/***August Top Picks Text**/
-
-.pageHeading {
-margin: 10px;
-}
-
-.h2{
-  font-size: 30px;
-}
-
-/***Featured activities boxes***/
-
-.featuredContainerOuter{
-  display: flex;
-  flex-direction: column;   
-}
-
-.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter {
-width: 80%;
-flex-wrap: wrap;
-}
-
-#imagesIndex {
-  width: 100%;
-  height: auto;
-}
-
-.activity-info {
-  font-size: 30px;
-}
-
-
-
-
-/**** ACTIVITIES PAGE****/
-/**Activities section FLIP CARD FRONT **/
-.flip-card-front {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.activityTitle{
-display: flex;
-flex-direction: row;
-justify-content: center;
-width: 100%;
-}
-
-#activityTitle{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.images {
-  width: 100%;
-  height: 70%;
-}
-
-/**Activities section FLIP CARD BACK **/
-
-.flip-card-back{
-  display: flex;
-  flex-direction: column;
-}
-
-.activitiesH2{
-  line-height: 50px;
-  font-size: 20px;
-}
-
-.eventText {
-  font-size: 14px;
-}
-
-.table-data{
-  font-size: 15px ;
-}
-
-/**Activities page forms**/
-
-.flex-container2{
-  display: flex;
-  flex-direction: column;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-  margin:10px;
-}
-.formHeader{
-  font-size: 15px;
-
-}
-
-.formContents{
-  margin: 0;
-  width: 100%;
-}
-
-#activityDetails{
-  width: 80%;
-}
-
-/***ABOUT PAGE ***/
-
-/**About page text**/
-
-.aboutContainerBox{
-  display: flex;
-  flex-direction: column;
-}
-
-.box1{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-#aboutpageH2{
-  font-size: 20px;
-}
-.img1{
-  width: 100%;
-}
-
-}
-
-/* mobile Medium 375px*/
-@media screen  and (max-width: 375px) {
-/****HOME PAGE****/
-
-/*nav bar*/
-header{
-display: flex;
-  flex-direction: column;
-}
-
-#menu{
-  flex-wrap: wrap;
-    font-size: 80%;
-    list-style-type: none; 
-}
-
-#menu li {
-    float: right;
-    margin-right: 10px;
-    
-   }
-
-/*find your people header*/
-
-h1{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 40px;
-  justify-content: center;
-}
-
-/**Home page text**/
-
-.site-info{
-  line-height: 40px;
-}
-
-/**top pick for Aug header**/
-
-#pageHeading{
-  display: flex;
-  flex-direction: column;
-}
-
-.pageHeading{
-  font-size: 20px;
-}
-
-/***Featured activities boxes***/
-
-.featuredContainerOuter{
-  display: flex;
-  flex-direction: column;   
-}
-
-.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter {
-width: 80%;
-flex-wrap: wrap;
-}
-
-#imagesIndex {
-  width: 100%;
-  height: auto;
-}
-
-.activity-info {
-  font-size: 30px;
-}
-
-
-/**** ACTIVITIES PAGE****/
-/**Activities section FLIP CARD FRONT **/
-.flip-card-front {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.activityTitle{
-display: flex;
-flex-direction: row;
-justify-content: center;
-width: 100%;
-}
-
-#activityTitle{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.images {
-  width: 100%;
-  height: 70%;
-}
-
-/**Activities section FLIP CARD BACK **/
-
-.flip-card-back{
-  display: flex;
-  flex-direction: column;
-}
-
-.activitiesH2{
-  line-height: 50px;
-  font-size: 30px;
-}
-
-.eventText {
-  font-size: 18px;
-}
-
-.table-data{
-  font-size: 15px ;
-}
-
-/**Activities page forms**/
-
-.flex-container2{
-  display: flex;
-  flex-direction: column;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-  margin:10px;
-}
-.formHeader{
-  font-size: 20px;
-
-}
-
-.formContents{
-  margin: 0;
-  width: 100%;
-}
-
-#activityDetails{
-  width: 90%;
-}
-
-/***ABOUT PAGE ***/
-
-/**About page text**/
-
-.aboutContainerBox{
-  display: flex;
-  flex-direction: column;
-}
-
-.box1{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-#aboutpageH2{
-  font-size: 20px;
-  margin: 5%;
-}
-.img1{
-  width: 100%;
-}
-
-
-}
-
-
-/* mobile Large 425px*/
-
-@media screen  and (max-width: 425px) {
-/****HOME PAGE****/
-
-/*nav bar*/
-header{
-display: flex;
-  flex-direction: column;
-}
-
-#menu{
-  flex-wrap: wrap;
-    font-size: 80%;
-    list-style-type: none; 
-}
-
-#menu li {
-    float: right;
-    margin-right: 10px;
-    
-   }
-
-/*find your people header*/
-
-h1{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 40px;
-  justify-content: center;
-}
-
-/**Home page text**/
-
-.site-info{
-  line-height: 40px;
-}
-
-/**top pick for Aug header**/
-
-#pageHeading{
-  display: flex;
-  flex-direction: column;
-}
-
-.pageHeading{
-  font-size: 20px;
-}
-
-/***Featured activities boxes***/
-
-.featuredContainerOuter{
-  display: flex;
-  flex-direction: column;   
-}
-
-.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter {
-width: 80%;
-flex-wrap: wrap;
-}
-
-#imagesIndex {
-  width: 100%;
-  height: auto;
-}
-
-.activity-info {
-  font-size: 30px;
-}
-
-
-/**** ACTIVITIES PAGE****/
-/**Activities section FLIP CARD FRONT **/
-.flip-card-front {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.activityTitle{
-display: flex;
-flex-direction: row;
-justify-content: center;
-width: 100%;
-}
-
-#activityTitle{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.images {
-  width: 100%;
-  height: 70%;
-}
-
-/**Activities section FLIP CARD BACK **/
-
-.flip-card-back{
-  display: flex;
-  flex-direction: column;
-}
-
-.activitiesH2{
-  line-height: 50px;
-  font-size: 30px;
-}
-
-.eventText {
-  font-size: 18px;
-}
-
-.table-data{
-  font-size: 15px ;
-}
-
-/**Activities page forms**/
-
-.flex-container2{
-  display: flex;
-  flex-direction: column;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-  margin:10px;
-}
-.formHeader{
-  font-size: 20px;
-
-}
-
-.formContents{
-  margin: 0;
-  width: 100%;
-}
-
-#activityDetails{
-  width: 90%;
-}
-
-/***ABOUT PAGE ***/
-
-/**About page text**/
-
-.aboutContainerBox{
-  display: flex;
-  flex-direction: column;
-}
-
-.box1{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-#aboutpageH2{
-  font-size: 20px;
-  margin: 5%;
-}
-
-.img1{
-  display: flex;
-  flex-direction: row;
-  width: 80%;
-  margin: 10%;
- }
-
-}
-
-/** Tablet 768px**/
-@media screen and (max-width:768px) {
-  /****HOME PAGE****/
-
-/*nav bar*/
-header{
-display: flex;
-  flex-direction: column;
-}
-
-#menu{
-  flex-wrap: wrap;
-    font-size: 100%;
-    list-style-type: none; 
-}
-
-#menu li {
-    float: right;
-    margin-right: 10px;
-    
-   }
-
-/*find your people header*/
-
-h1{
-  display: flex;
-  flex-wrap: wrap;
-  font-size: 40px;
-  justify-content: center;
-}
-
-/**Home page text**/
-
-.site-info{
-  line-height: 40px;
-}
-
-/**top pick for Aug header**/
-
-#pageHeading{
-  display: flex;
-  flex-direction: column;
-}
-
-.pageHeading{
-  font-size: 20px;
-}
-
-/***Featured activities boxes***/
-
-.featuredContainerOuter{
-  display: flex;
-  flex-direction: column;   
-
-}
-
-.featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter {
-display: flex;
-flex-direction: column;
-width: 90%;
-
-}
-
-#imagesIndex {
-  width: 100%;
-  height: auto;
-}
-
-.activity-info {
-  font-size: 50px;
-  justify-content: center;
-}
-
-.findOutMore{
-font-size: 30px;
-width: 100%;
-justify-content: space-around;
-}
-
-#social-networks{
-  font-size: 20px;
-}
-
-
-/**** ACTIVITIES PAGE****/
-
-/*** activities container***/
-
-.flex-container1{
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
-.flip-card{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
-}
-
-/**Activities section FLIP CARD FRONT **/
-.flip-card-front {
-  display: flex;
-  flex-direction: column;
- }
-
-.activityTitle{
-display: flex;
-flex-direction: row;
-justify-content: center;
-width: 100%;
-}
-
-#activityTitle{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.images {
-  width: 100%;
-  height: 70%;
-}
-
-/**Activities section FLIP CARD BACK **/
-
-.flip-card-back{
-  display: flex;
-  flex-direction: column;
-}
-
-.activitiesH2{
-  line-height: 50px;
-  font-size: 30px;
-}
-
-.eventText {
-  font-size: 18px;
-}
-
-.table-data{
-  font-size: 15px ;
-}
-
-/**Activities page forms**/
-
-.flex-container2{
-  display: flex;
-  flex-direction: column;
-}
-
-.form{
-  display: flex;
-  flex-direction: column;
-  margin:10px;
-}
-.formHeader{
-  font-size: 30px;
-
-}
-
-.formContents{
-  margin: 2%;
-  width: 100%;
-}
-
-#activityDetails{
-  width: 90%;
-}
-
-/***ABOUT PAGE ***/
-
-/**About page text**/
-
-.aboutContainerBox{
-  display: flex;
-  flex-direction: column;
-}
-
-.box1{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-#aboutpageH2{
-  font-size: 20px;
-  margin: 5%;
-}
-
-.img1{
-  display: flex;
-  flex-direction: row;
-  width: 60%;
-  margin: 0 20% 5% 20%;
- }
-
-}
-
-
-
-/* tablets 768px----
-@media screen and (max-width:768px) {
-  
-}
-
-/* Laptops 1024px----
-@media screen and (max-width:992px) {
-  
-}
-
-/* laptop large 1440px----
-@media screen and (max-width:1200px) {
-  
-}
-*/
 
