@@ -320,9 +320,6 @@ h4{
 
 /*about page*/
 
-.header {
-  height: 60%;
-}
 
 .aboutContainerBox{
   display: flex;
@@ -332,10 +329,10 @@ h4{
 }
 
 .box1{
+  display: flex;
+  flex-direction: column;
   background-color: #F1F2F4;
-  
   width: 80%;
-  
   text-align: center;
 }
 
@@ -344,13 +341,12 @@ h4{
 }
 
 .aboutPageText {
-  margin: 10px;
+  margin: 2%;
 }
 
 .img1 {
+  margin-left: 20%;
   border-radius: 40%;
-  justify-content: right;  
-  height: 70%;
   width: 50%;
 }
 
