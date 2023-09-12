@@ -374,6 +374,25 @@ h4{
 
 
 
+/*------------------media queries---*/
+/*mobile small 320px*/
+
+@media screen  and (min-width: 320px) {
+
+  header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 10%;    
+  }
+
+  #menu{
+    line-height: 150%;
+  }
+}
+
+
+
 
 
 
