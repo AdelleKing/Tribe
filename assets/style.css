@@ -16,7 +16,7 @@ div{
 /****  nav bar ***/
 
 header {  
-  height: 11%;
+  
   width: 100%;
 }
 
@@ -46,6 +46,12 @@ h2 {
 
 #logo, #menu {
  line-height: 75px; 
+ 
+}
+
+#logo{
+  margin: 0;
+  padding: 0;
 }
 
 #menu li {
@@ -67,17 +73,10 @@ a {
 
 /* hero image*/
 
-.hero-outer{
-    height:600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
+
 
 .hero-image{
-    height:600px;
+    height:80%;
     width: 100%;
     background:url("../assets/images/jpeg-png/hero-image.png") no-repeat center center;
     margin: 0;
@@ -128,6 +127,10 @@ a {
   padding: 15px; 
   }
 
+  .imageContainer{
+    height: 100%;
+  }
+
    .imagesIndex {
   width: 100%;
   height: 70%;
@@ -163,8 +166,8 @@ a {
 }
 
 p {
-  font-size: 150%;
-  line-height: 110%;
+  font-size: 120%;
+  line-height: 90%;
 }
 
 
@@ -186,8 +189,13 @@ p {
 }
 
 .images-Activities {
-   width: 100%;
+   width: 96%;
   height: 70%;
+  margin: 2%;
+}
+
+.activityTitle {
+  justify-content: center;
 }
 
 
@@ -202,7 +210,7 @@ p {
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover, .flip-card-inner {
+.flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -212,9 +220,10 @@ p {
   flex-direction: column;
   position: absolute;
   width: 100%;
-  height: 0;
+  height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+  color: black;
 }
 
 .flip-card-back {
@@ -225,18 +234,9 @@ p {
   height: 0;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-}
-
-
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  color: black;
-}
-
-/* Style the back side */
-.flip-card-back {
   transform: rotateY(180deg);
 }
+
 
 /* activities information */
 
@@ -377,25 +377,30 @@ h4{
 /*------------------media queries---*/
 /*mobile small 320px*/
 
-@media screen  and (max-width: 320px) {
+@media screen  and (max-width: 372px) {
 
   /***HOME PAGE****/
 
   header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    width: 65%;    
+    width: 95%;    
   }
 
   #menu{
     display: flex;
     flex-direction: column-reverse;
     line-height: 150%;
-    margin-left: 60%;
+    margin-left: 80%;
     padding: 0;
     
   }
+
+  .site-info{
+    font-size: 90%;
+  }
+
 
   h2{
     font-size: 140%;
@@ -413,17 +418,71 @@ h4{
    }
 
 
+ /***Events***/
+ 
+ .flex-container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+
+.flip-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form {
+  width: 97%;
+  margin: 2%;
+}
+
+.formContents{
+  width: 60%;
+  margin: 0 0 0 2%;
+}
+
+textarea, input{
+  width: 140%;
+}
+
+.formSubmit{
+  width: 55%;
+}
+
+/***About page***/
+
+.aboutContainerBox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 }
 
 /*mobile 375px*/
 
-@media screen  and (max-width: 374px) {
+@media screen  and (min-width: 374px) {
 
 
 /***HOME PAGE****/
   header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 80%;    
   }
@@ -432,13 +491,17 @@ h4{
     display: flex;
     flex-direction: column-reverse;
     line-height: 150%;
-    margin-left: 90%;
+    margin-left: 100%;
     padding: 0;
    
   }
 
   h2{
     font-size: 140%;
+  }
+
+  .site-info{
+    font-size: 90%;
   }
 
   .featuredContainerOuter{
@@ -448,23 +511,77 @@ h4{
   }
 
    .featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter{
-    width: 100%;
+    width: 80%;
     height: 70%;
     margin: 0;
     padding: 2%;
     margin-bottom: 2%;
    }
 
+    /***Events***/
+ 
+ .flex-container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+
+.flip-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form {
+  width: 97%;
+  margin: 2%;
+}
+
+.formContents{
+  width: 60%;
+  margin: 0 0 0 2%;
+}
+
+textarea, input{
+  width: 140%;
+}
+
+.formSubmit{
+  width: 55%;
+}
+
+/***About page***/
+
+.aboutContainerBox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 }
 
 /*mobile 425px*/
-@media screen  and (max-width: 426px) {
+@media screen  and (min-width: 426px) {
 
   /***HOME PAGE****/
 
  header{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 75%;    
   }
@@ -473,12 +590,16 @@ h4{
     display: flex;
     flex-direction: column-reverse;
     line-height: 150%;   
-    margin-left: 90%;
+    margin-left: 190%;
     padding: 0;
   }
 
   .hero-outer{
     width: 100%;
+  }
+
+  .site-info{
+    font-size: 90%;
   }
 
   h2{
@@ -499,61 +620,61 @@ h4{
     margin-bottom: 4%;
    }
 
+      /***Events***/
+ 
+ .flex-container1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+
+.flip-card{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
-/***Tablet 768px***/
-@media screen  and (max-width: 427px) and (min-width: 768px) {
+.flex-container2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
-  /***HOME PAGE****/
+.form {
+  width: 97%;
+  margin: 2%;
+}
 
- header{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 75%;    
-  }
+.formContents{
+  width: 60%;
+  margin: 0 0 0 2%;
+}
 
-  #menu{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    line-height: 150%;
-    margin-left: 60%;
-    padding: 0;
-    
-    }
+textarea, input{
+  width: 140%;
+}
 
-  nav li {
-    padding: 5%;
-    margin: 0;
-    margin-right: 0;
-  }
+.formSubmit{
+  width: 55%;
+}
 
-  .hero-outer{
-    width: 100%;
-  }
+/***About page***/
 
-  h2{
-    font-size: 140%;
-  }
+.aboutContainerBox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
 
-  .site-info{
-    font-size: 130%;
-  }
-
-  .featuredContainerOuter{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-
-   .featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter{
-    width: 93%;
-    height: 70%;
-    margin: 0;
-    padding: 2%;
-    margin-bottom: 4%;
-   }
+.box1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
 
 }
+
+
 
