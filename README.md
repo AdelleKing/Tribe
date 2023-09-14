@@ -235,7 +235,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 I wanted to ensure the site supported all visitors, I included the following in my code to ensure this:
 
 * All images contained an alt tag
-* All images were converted into WEBP, a reduced file size to support the load time of images 
+* All images were converted into WEBP, a reduced file size to support the load time of images (https://convertio.co/webp-converter/)
 * The site is responsive to different screen sizes 
 * I used semantic elements throughout the design
 
