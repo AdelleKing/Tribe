@@ -2,7 +2,7 @@
 ## **Site Overview**
 Welcome to Tribe - the number one destination for the African and Caribbean community. Here at Tribe we foster a passion to connect and enhance the African and Caribbean communities in rural areas. Connect with others by joining activities being hosted by people like yourself, or host your own activity. Find Black Owned businesses providing the products and services you need, using the business directory. Build new relationships with the secure profile portal which includes a chat function. 
 
-![Am I responsive screenshot](docs/screenshots/amires.png)
+![Am I responsive screenshot](assets/images/screenshots/AmIResponsive.png)
 
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -73,9 +73,9 @@ I used Balsamiq to create a visual representation of the Tribe site - below are 
 
 * Desktop Wireframes:
     * ![Homepage](assets/images/screenshots/index_wireframe.png)
-    * ![Activities](assets/images/screenshots/actvities_wreframe.png)
+    * ![Activities](assets/images/screenshots/activities_wreframe.png)
     * ![Business](assets/images/screenshots/business_wreframe.png)
-    * ![SignUp](assets/images/screenshots/signUP_wireframe.png)
+    * ![SignUp](assets/images/screenshots/signUP_wreframe.png)
 
 There was some deviation from the original wireframes due to time and additional functionality needed to support the designs
 
