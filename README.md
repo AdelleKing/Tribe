@@ -261,7 +261,7 @@ This project could not have happened without the support of the following people
 
 * [Komal Karir ](https://github.com/kkarir-waes) - My course tutor who was always on hand whenever I had a question and also provided great insight into the world of software development.
 
-* [Komal Karir ](https://github.com/kkarir-waes) - My Code Institute mentor was able to see what I was trying to create and helped me simplify my code - a lot of 'Oh I see' moments - thank you.
+* Luke Buchanan - My Code Institute mentor was able to see what I was trying to create and helped me simplify my code - a lot of 'Oh I see' moments - thank you.
 
 * The slack channels and other online support forums where I found a wealth of information, great inspiration and the courage to carry on through the difficult times of this project.
 

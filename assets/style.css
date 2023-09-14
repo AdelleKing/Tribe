@@ -377,7 +377,7 @@ h4{
 /*------------------media queries---*/
 /*mobile small 320px*/
 
-@media screen  and (max-width: 372px) {
+@media screen  and (max-width: 374px) {
 
   /***HOME PAGE****/
 
@@ -506,7 +506,7 @@ textarea, input{
 
   .featuredContainerOuter{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
   }
 
@@ -575,7 +575,7 @@ textarea, input{
 }
 
 /*mobile 425px*/
-@media screen  and (min-width: 426px) {
+@media screen  and (min-width: 427px) {
 
   /***HOME PAGE****/
 
@@ -608,7 +608,7 @@ textarea, input{
 
   .featuredContainerOuter{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 
@@ -624,7 +624,7 @@ textarea, input{
  
  .flex-container1 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
  }
 
@@ -632,8 +632,10 @@ textarea, input{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 90%;
+  width: 40%;
 }
+
+/**form**/
 
 .flex-container2 {
   display: flex;
@@ -672,6 +674,118 @@ textarea, input{
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
+}
+
+}
+
+/*mobile 425px*/
+@media screen  and (min-width:952px){
+
+  /***HOME PAGE****/
+
+ header{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-between;
+
+    width: 75%;    
+  }
+
+  #menu{
+    display: flex;
+    flex-direction: column-reverse;
+    line-height: 150%;   
+    margin-left: 190%;
+    padding: 0;
+  }
+
+
+
+  .hero-outer{
+    width: 100%;
+  }
+
+  .site-info{
+    font-size: 90%;
+  }
+
+  h2{
+    font-size: 140%;
+  }
+
+  .featuredContainerOuter{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+   .featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter{
+    width: 30%;
+    height: 70%;
+    margin: 2%;
+    padding: 2%;
+    
+   }
+
+      /***Events***/
+ 
+ .flex-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+
+.flip-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 20%;
+}
+.eventText {
+  font-size: 60%;
+}
+
+/**Form**/
+
+.flex-container2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.form {
+  width: 97%;
+  margin: 2%;
+}
+
+.formContents{
+  width: 60%;
+  margin: 0 0 0 4%;
+}
+
+textarea, input{
+  width: 140%;
+}
+
+.formSubmit{
+  width: 55%;
+}
+
+/***About page***/
+
+.aboutContainerBox{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 90%;
 }
 
 }
