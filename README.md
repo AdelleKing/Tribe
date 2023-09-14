@@ -185,7 +185,22 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/about_final_test_results.png)
 
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator) 
+
+    CSS:
+
+    Intial tests show various errors to be corrected.
+    ![Intial test results](assets/images/screenshots/CSS_initial_test_results.png)
+    After fixing the errors, the final test results confirm no errors or warnings.
+    ![Final test results](assets/images/screenshots/CSS_final_test_results.png)
+
+    However, the initial test on the styleshet showed the use of webkit within the backface code (lines 227 and 237) were not best practice. After removing these the images in firefox for the activities page do not perform the same as thier counterparts on the Edge browser. 
+
+    I have included a screenshot of compatibility for the use of backface accross the browsers, I am unable to investigate further due to time restraints.
+    ![MND Docs compatibility](assets/images/screenshots/backface_compatibility_confirmation.png)
+
+
+
 
 ### Testing User Stories from User Experience (UX) Section
 
