@@ -166,7 +166,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     Homepage:
 
     Intial tests show various errors to be corrected.
-    ![Intial test results](assets/images/screenshots/homepage_inital_test_results.png)
+    ![Intial test results](assets/images/screenshots/homepage_initial_test_results.png)
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/homepage_final_test_results.png)
 
@@ -181,7 +181,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     About:
 
     Intial tests show various errors to be corrected.
-    ![Intial test results](assets/images/screenshots/about_inital_test_results.png)
+    ![Intial test results](assets/images/screenshots/about_initial_test_results.png)
     After fixing the errors, the final test results confirm no errors or warnings.
     ![Final test results](assets/images/screenshots/about_final_test_results.png)
 
