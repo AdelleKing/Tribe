@@ -78,10 +78,12 @@ a {
 .hero-image{
     height:80%;
     width: 100%;
-    background:url("../assets/images/jpeg-png/hero-image.png") no-repeat center center;
+    background:url("../images/jpeg-png/hero-image.png") no-repeat center center;
+    
     margin: 0;
     padding: 0;
 }
+
 
 
 /*first section of text*/
@@ -119,7 +121,7 @@ a {
   display: flex;
   flex-direction: column;
   border: 10px solid transparent;
-  border-image: url(../assets/images/african-print.webp) 30 round;
+  border-image: url("../images/african-print.webp") 30 round;
   width: 28%;
   margin: 10px;
   text-align: center;  
@@ -179,7 +181,7 @@ p {
   flex-wrap: wrap;
   background-color: transparent;
   border: 10px solid transparent;
-  border-image: url(../assets/images/african-print.webp) 30 round;
+  border-image: url("../images/african-print.webp") 30 round;
   width: 25%;
   height: 350px;
   margin: 2%;
