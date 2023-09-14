@@ -80,7 +80,7 @@ I used Balsamiq to create a visual representation of the Tribe site - below are 
 There was some deviation from the original wireframes due to time and additional functionality needed to support the designs
 
 * The Business page were not created due to the need for backend functionality which was out of the scope of this project.
-* The signup page also required the need for backend functionality, a standard form is used to enable sign up, currently, and the sign in form has been omitted until the backend functionality is available.
+* The signup page also required the need for backend functionality, a standard form is used to enable people to RSVP to events on the activities page, currently, and the sign in page has been omitted until the backend functionality is available.
 * The ability to search and use a map functionality also required backend functionality and were left out at this stage.
 * To improve the User experience, the hero image was removed from all pages except the index page, as users could not differentiate between pages when using the navigation bar until they scrolled down. 
 * Social media links were omitted at this stage as these have not been created yet to support the website. 
@@ -161,7 +161,13 @@ The header is used throughout the site to hold the navigation bar and the site t
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+    Event.HTML:
+    Intial tests show various errors to be corrected.
+    ![Intial test results](assets/images/screenshots/event_page_inital_test_results.png)
+    After fixing the errors, the final test results confirm no errors or warnings.
+    ![Final test results](assets/images/screenshots/final_event_pagetest_results.png)
+
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -238,9 +244,17 @@ I wanted to ensure the site supported all visitors, I included the following in 
 
 ### ***Known Bugs***
 
-* adding the bootstrap link caused the border image to disable. - removed bootstrap link and used CSS to obtain result.
+* adding the bootstrap link caused the border image to disable. 
+    - Solution:  removed bootstrap link and used CSS to obtain result.
 * adding event listener to map caused map to disappear 
-![Image](assets/images/bug-screenshots/broken-map.png) - bug fixed by editing code
+![Image](assets/images/bug-screenshots/broken-map.png) 
+    - Solution: although I was able to fix this bug by editing the code, I did remove this functionlaity due to increased need for javascript to fully deliver what I wanted from the map. opted for this project, to just use an image. 
+* I was unable to see why the middle image on the index.html page was longer than the other images. From using the inspect tool - all attributes for the three containers were the same. 
+    - solution: bug not fixed due to time restaints. 
+* I was unable to contain the text within the back of the flip cards when the device screen was being resized. 
+    - solution: bug not fixed due to time restraints
+* I was unable to change the nav bar to be on one line when the screen size was a laptop or bigger. It is currently stacked.
+    -solution: bug not fixed due to time restraints.    
 
 
 ## **Deployment**
