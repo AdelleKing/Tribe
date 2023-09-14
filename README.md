@@ -72,13 +72,10 @@ Welcome to Tribe - the number one destination for the African and Caribbean comm
 I used Balsamiq to create a visual representation of the Tribe site - below are the initial idea designs:
 
 * Desktop Wireframes:
-    * [Homepage (index.html)](assets/images/index_wireframe.png)
-    * [Activities (activities.html)](assets/images/actvities_wireframe.png)
-    * [Business](assets/images/business_wireframe.png)
-    * [SignUp](assets/images/signUp_wireframe.png)
-
-* Desktop wireframes:
-    * [Homepage (About)](docs/screenshots/wireframe1.jpg)
+    * [Homepage (index.html)](assets/images/screenshots/index_wireframe.png)
+    * [Activities (activities.html)](assets/images/screenshots/actvities_wireframe.png)
+    * [Business](assets/images/screenshots/business_wireframe.png)
+    * [SignUp](assets/images/screenshots/signUp_wireframe.png)
 
 There was some deviation from the original wireframes due to time and additional functionality needed to support the designs
 
@@ -138,9 +135,9 @@ The header is used throughout the site to hold the navigation bar and the site t
 
 
 ## **Footer**
-* The footer holds the contact us form, this is replicated throughout the site.
+* The footer holds icons to access social media sites and an email functionality to contact us, this is replicated throughout the site.
 
-![Page footer](assets/images/screenshots/footer_screenshot.png)
+![Page footer](assets/images/screenshots/footer.png)
 
 ## **Future-Enhancements**
 
