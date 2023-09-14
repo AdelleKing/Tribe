@@ -461,6 +461,12 @@ textarea, input{
   width: 55%;
 }
 
+.formSubmit:hover {
+  width: 65%;
+  font-size: 2rem;
+}
+
+
 /***About page***/
 
 .aboutContainerBox{
@@ -515,7 +521,7 @@ textarea, input{
   }
 
    .featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter{
-    width: 80%;
+    width: 90%;
     height: 70%;
     margin: 0;
     padding: 2%;
@@ -561,6 +567,11 @@ textarea, input{
 
 .formSubmit{
   width: 55%;
+}
+
+.formSubmit:hover {
+  width: 65%;
+  font-size: 2rem;
 }
 
 /***About page***/
@@ -666,6 +677,11 @@ textarea, input{
 
 .formSubmit{
   width: 55%;
+}
+
+.formSubmit:hover {
+  width: 65%;
+  font-size: 2rem;
 }
 
 /***About page***/
