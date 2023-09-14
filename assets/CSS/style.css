@@ -439,6 +439,8 @@ h4{
   flex-wrap: wrap;
 }
 
+/**form**/
+
 .form {
   width: 97%;
   margin: 2%;
@@ -532,6 +534,8 @@ textarea, input{
   flex-wrap: wrap;
   width: 90%;
 }
+
+/**form**/
 
 .flex-container2 {
   display: flex;
@@ -633,6 +637,7 @@ textarea, input{
   flex-direction: column;
   flex-wrap: wrap;
   width: 40%;
+  
 }
 
 /**form**/
@@ -742,7 +747,9 @@ textarea, input{
   flex-direction: row;
   flex-wrap: wrap;
   width: 20%;
+  
 }
+
 .eventText {
   font-size: 60%;
 }
