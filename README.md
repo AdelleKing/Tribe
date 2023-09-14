@@ -72,10 +72,10 @@ Welcome to Tribe - the number one destination for the African and Caribbean comm
 I used Balsamiq to create a visual representation of the Tribe site - below are the initial idea designs:
 
 * Desktop Wireframes:
-    * [Homepage (index.html)](assets/images/screenshots/index_wireframe.png)
-    * [Activities (activities.html)](assets/images/screenshots/actvities_wireframe.png)
-    * [Business](assets/images/screenshots/business_wireframe.png)
-    * [SignUp](assets/images/screenshots/signUp_wireframe.png)
+    * ![Homepage (index.html)](assets/images/screenshots/index_wireframe.png)
+    * ![Activities (activities.html)](assets/images/screenshots/actvities_wireframe.png)
+    * ![Business](assets/images/screenshots/business_wireframe.png)
+    * ![SignUp](assets/images/screenshots/signUp_wireframe.png)
 
 There was some deviation from the original wireframes due to time and additional functionality needed to support the designs
 
