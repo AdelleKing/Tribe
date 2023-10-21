@@ -58,7 +58,6 @@ h2 {
 #menu li {
     float: right;
     margin-right: 3%;
-
   }
 
   a:hover {
@@ -717,12 +716,13 @@ textarea, input{
 
   #menu{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row-reverse;
     line-height: 150%;   
     margin-left: 190%;
     padding: 0;
+    justify-content: flex-start;
+    align-items: center;
   }
-
 
 
   .hero-outer{
@@ -741,7 +741,7 @@ textarea, input{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%;
+    
   }
 
    .featuredContainerLeft, .featuredContainerRight, .featuredContainerCenter{
